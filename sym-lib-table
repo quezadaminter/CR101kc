@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name CPU-eagle-import)(type Legacy)(uri ${KIPRJMOD}/CPU-eagle-import.lib)(options "")(descr ""))
+  (lib (name PowerBoard-Boost-eagle-import)(type Legacy)(uri C:/Users/mquezada/Documents/KiCAD/CR101/PowerBoost/PowerBoard-Boost-eagle-import.lib)(options "")(descr ""))
+  (lib (name CPU-rescue)(type Legacy)(uri ${KIPRJMOD}/CPU-rescue.lib)(options "")(descr ""))
+)

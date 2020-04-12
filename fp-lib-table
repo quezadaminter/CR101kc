@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CPU)(type KiCad)(uri "$(KIPRJMOD)/CPU.pretty")(options "")(descr ""))
+)
