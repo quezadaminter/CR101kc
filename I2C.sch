@@ -370,8 +370,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 2550 4950 2450
 Wire Wire Line
-	6000 3050 5100 3050
-Wire Wire Line
 	4950 3050 4950 2550
 Connection ~ 4950 2550
 Wire Wire Line
@@ -423,22 +421,6 @@ Text HLabel 5100 1350 0    39   Input ~ 0
 SDA
 Text HLabel 5100 1750 0    39   Input ~ 0
 TINT
-$Comp
-L power:PWR_FLAG #FLG0106
-U 1 1 5EB68594
-P 5100 2950
-F 0 "#FLG0106" H 5100 3025 50  0001 C CNN
-F 1 "PWR_FLAG" H 5100 3123 50  0000 C CNN
-F 2 "" H 5100 2950 50  0001 C CNN
-F 3 "~" H 5100 2950 50  0001 C CNN
-	1    5100 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 2950 5100 3050
-Connection ~ 5100 3050
-Wire Wire Line
-	5100 3050 4950 3050
 Text Label 7950 2150 3    39   ~ 0
 TGUARD
 $Comp
@@ -480,4 +462,6 @@ F 3 "" H 4950 3050 50  0001 C CNN
 	1    4950 3050
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4950 3050 6000 3050
 $EndSCHEMATC

@@ -214,17 +214,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 5200 5150 5600
 Connection ~ 5150 5600
-$Comp
-L CPU-eagle-import:5V #SUPPLY0102
-U 1 1 5E9EAA7D
-P 5250 4450
-F 0 "#SUPPLY0102" H 5250 4450 50  0001 C CNN
-F 1 "5V" H 5250 4560 59  0000 C BNN
-F 2 "" H 5250 4450 50  0001 C CNN
-F 3 "" H 5250 4450 50  0001 C CNN
-	1    5250 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4950 5000 5150 5000
 Wire Wire Line
@@ -249,8 +238,6 @@ Text Label 4950 6000 0    39   ~ 0
 TFT_DC
 Text Label 4950 5800 0    39   ~ 0
 RT_INIT
-Text Label 4950 5500 0    39   ~ 0
-Pi12
 $Comp
 L Connector_Generic_MountingPin:Conn_02x14_Odd_Even_MountingPin J102
 U 1 1 5EA0CFAA
@@ -284,10 +271,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 2900 3400 2900
 Connection ~ 3500 2900
-Text Label 3600 3000 2    39   ~ 0
-SDA
-Text Label 3600 3100 2    39   ~ 0
-SCL
 Text Label 3600 3200 2    39   ~ 0
 Pi7
 Text Label 3600 3400 2    39   ~ 0
@@ -403,8 +386,6 @@ $EndComp
 Wire Wire Line
 	5150 5000 5150 4900
 Connection ~ 5150 5000
-Wire Wire Line
-	5250 4500 5250 4450
 Text Label 5150 5000 0    39   ~ 0
 Pi5V
 NoConn ~ 3850 4400
@@ -412,7 +393,6 @@ NoConn ~ 5050 4500
 NoConn ~ 3050 6400
 NoConn ~ 3050 6500
 NoConn ~ 3050 6600
-NoConn ~ 3050 6700
 NoConn ~ 4950 6700
 NoConn ~ 4950 6500
 NoConn ~ 4950 6900
@@ -702,9 +682,9 @@ Text Label 8250 3100 0    39   ~ 0
 SDA5
 Text Label 8250 1950 0    39   ~ 0
 SCL5
-Text Label 3050 5100 2    39   ~ 0
+Text Label 4950 5500 0    39   ~ 0
 SDA
-Text Label 3050 5200 2    39   ~ 0
+Text Label 3050 6700 2    39   ~ 0
 SCL
 NoConn ~ 1350 1500
 $Sheet
@@ -716,160 +696,24 @@ F2 "SCL" I L 3950 1800 39
 F3 "SDA" I L 3950 1900 39 
 F4 "TINT" I L 3950 2000 39 
 $EndSheet
+Text Notes 3200 7250 0    20   ~ 0
+I2C slave setup:\nhttps://raspberrypi.stackexchange.com/questions/76109/raspberry-as-an-i2c-slave
+NoConn ~ 4100 3400
+NoConn ~ 3600 3100
+NoConn ~ 3600 3000
+NoConn ~ 3050 5100
+NoConn ~ 3050 5200
 $Comp
-L Marco:DMC4050 Q103
-U 1 1 5E925B34
-P 5800 3200
-F 0 "Q103" H 5256 3186 10  0000 R CNN
-F 1 "DMC4050" H 5256 3213 10  0000 R CNN
-F 2 "Marco:8-SMD" H 5800 3200 10  0001 C CNN
-F 3 "" H 5800 3200 10  0001 C CNN
-F 4 "DMC4050SSD-13" H 5800 3200 50  0001 C CNN "DigiKey"
-	1    5800 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L CPU-eagle-import:R-US_R1206 R?
-U 1 1 5E928908
-P 5200 2900
-AR Path="/5E916134/5E928908" Ref="R?"  Part="1" 
-AR Path="/5E928908" Ref="R105"  Part="1" 
-F 0 "R105" H 5050 2959 59  0000 L BNN
-F 1 "10K" H 5050 2770 59  0000 L BNN
-F 2 "CPU:R1206" H 5200 2900 50  0001 C CNN
-F 3 "" H 5200 2900 50  0001 C CNN
-F 4 " C17902" H 5200 2900 50  0001 C CNN "LCSC Part Number"
-F 5 "RC1206FR-0710KL" H 5200 2900 50  0001 C CNN "DigiKey"
-	1    5200 2900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CPU-eagle-import:R-US_R1206 R?
-U 1 1 5E92C0F5
-P 6400 2950
-AR Path="/5E916134/5E92C0F5" Ref="R?"  Part="1" 
-AR Path="/5E92C0F5" Ref="R106"  Part="1" 
-F 0 "R106" H 6250 3009 59  0000 L BNN
-F 1 "10K" H 6250 2820 59  0000 L BNN
-F 2 "CPU:R1206" H 6400 2950 50  0001 C CNN
-F 3 "" H 6400 2950 50  0001 C CNN
-F 4 " C17902" H 6400 2950 50  0001 C CNN "LCSC Part Number"
-F 5 "RC1206FR-0710KL" H 6400 2950 50  0001 C CNN "DigiKey"
-	1    6400 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CPU-eagle-import:5V #SUPPLY0105
-U 1 1 5E92CA3A
-P 5600 2450
-F 0 "#SUPPLY0105" H 5600 2450 50  0001 C CNN
-F 1 "5V" H 5600 2560 59  0000 C BNN
-F 2 "" H 5600 2450 50  0001 C CNN
-F 3 "" H 5600 2450 50  0001 C CNN
-	1    5600 2450
+L power:+5VP #PWR0108
+U 1 1 5EB8BD82
+P 5250 4300
+F 0 "#PWR0108" H 5250 4150 50  0001 C CNN
+F 1 "+5VP" H 5265 4473 50  0000 C CNN
+F 2 "" H 5250 4300 50  0001 C CNN
+F 3 "" H 5250 4300 50  0001 C CNN
+	1    5250 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 2700 5600 2700
-Wire Wire Line
-	5600 2700 5600 2450
-Wire Wire Line
-	5600 2700 5600 3000
-Connection ~ 5600 2700
-Wire Wire Line
-	5200 3100 5200 3200
-Wire Wire Line
-	5200 3200 5300 3200
-Wire Wire Line
-	6000 3000 6000 2650
-Wire Wire Line
-	6000 2650 6400 2650
-Wire Wire Line
-	6400 2650 6400 2750
-Wire Wire Line
-	6400 3150 6400 3200
-Wire Wire Line
-	6400 3200 6300 3200
-Wire Wire Line
-	5300 3200 5300 2900
-Wire Wire Line
-	5300 2900 5800 2900
-Wire Wire Line
-	5800 2900 5800 3400
-Wire Wire Line
-	5800 3400 5900 3400
-Connection ~ 5300 3200
-Wire Wire Line
-	6000 3400 5900 3400
-Connection ~ 5900 3400
-Text Label 5600 3400 3    39   ~ 0
-Pi5V
-Text Label 5700 3400 3    39   ~ 0
-Pi5V
-$Comp
-L CPU-eagle-import:GND #GND0106
-U 1 1 5E942D3F
-P 6650 2950
-F 0 "#GND0106" H 6650 2950 50  0001 C CNN
-F 1 "GND" H 6650 2950 59  0000 C TNN
-F 2 "" H 6650 2950 50  0001 C CNN
-F 3 "" H 6650 2950 50  0001 C CNN
-	1    6650 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 2650 6650 2650
-Wire Wire Line
-	6650 2650 6650 2850
-Connection ~ 6400 2650
-$Comp
-L MCU_Microchip_ATtiny:ATtiny85-20PU U101
-U 1 1 5E9473CE
-P 6050 1550
-F 0 "U101" H 5521 1596 50  0000 R CNN
-F 1 "ATtiny85-20PU" H 5521 1505 50  0000 R CNN
-F 2 "Marco:8-SMD" H 6050 1550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 6050 1550 50  0001 C CNN
-F 4 "ATTINY85-20SHR" H 6050 1550 50  0001 C CNN "DigiKey"
-	1    6050 1550
-	1    0    0    -1  
-$EndComp
-Text Label 6400 3200 0    39   ~ 0
-PWR_SW
-Text Label 6650 1550 0    39   ~ 0
-PWR_SW
-$Comp
-L CPU-eagle-import:5V #SUPPLY?
-U 1 1 5E95C85A
-P 6050 850
-F 0 "#SUPPLY?" H 6050 850 50  0001 C CNN
-F 1 "5V" H 6050 960 59  0000 C BNN
-F 2 "" H 6050 850 50  0001 C CNN
-F 3 "" H 6050 850 50  0001 C CNN
-	1    6050 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L CPU-eagle-import:GND #GND?
-U 1 1 5E95CCF7
-P 6050 2350
-F 0 "#GND?" H 6050 2350 50  0001 C CNN
-F 1 "GND" H 6050 2350 59  0000 C TNN
-F 2 "" H 6050 2350 50  0001 C CNN
-F 3 "" H 6050 2350 50  0001 C CNN
-	1    6050 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 2250 6050 2150
-Wire Wire Line
-	6050 950  6050 850 
-NoConn ~ 6650 1750
-NoConn ~ 6650 1650
-Text Label 6650 1450 0    39   ~ 0
-85SCK
-Text Label 6650 1350 0    39   ~ 0
-85MISO
-Text Label 6650 1250 0    39   ~ 0
-85MOSI
+	5250 4300 5250 4500
 $EndSCHEMATC
