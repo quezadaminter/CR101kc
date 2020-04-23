@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name PowerBoard-eagle-import)(type Legacy)(uri ${KIPRJMOD}/PowerBoard-eagle-import.lib)(options "")(descr ""))
+  (lib (name PowerBoard-eagle-import)(type Legacy)(uri C:/Users/mquezada/Documents/KiCAD/CR101/PowerBoth/Charger/PowerBoard-eagle-import.lib)(options "")(descr ""))
+  (lib (name PowerBoard-Boost-v2-eagle-import)(type Legacy)(uri C:/Users/mquezada/Documents/KiCAD/CR101/PowerBoth/Boost/PowerBoard-Boost-v2-eagle-import.lib)(options "")(descr ""))
 )

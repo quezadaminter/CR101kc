@@ -1,0 +1,832 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 20439 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1700 1500 1700 1000
+Wire Wire Line
+	1900 1400 1900 1500
+Wire Wire Line
+	1900 1500 1700 1500
+Wire Wire Line
+	1700 1500 1200 1500
+Wire Wire Line
+	1200 1500 1200 1400
+Connection ~ 1700 1500
+Wire Wire Line
+	2200 1400 2200 1500
+Wire Wire Line
+	2200 1500 2300 1500
+Wire Wire Line
+	2300 1500 2300 1600
+Text Label 2200 1400 0    10   ~ 0
+GND
+Wire Wire Line
+	3000 4200 3200 4200
+Wire Wire Line
+	3400 4200 3200 4200
+Wire Wire Line
+	3200 4200 3200 5400
+Wire Wire Line
+	3200 5400 3200 5700
+Wire Wire Line
+	3900 5000 3900 5400
+Wire Wire Line
+	3900 5400 3200 5400
+Wire Wire Line
+	4500 5300 4500 5700
+Wire Wire Line
+	4500 5700 3200 5700
+Wire Wire Line
+	3200 5700 3200 5900
+Wire Wire Line
+	5000 5300 5000 5700
+Wire Wire Line
+	5000 5700 4500 5700
+Wire Wire Line
+	5000 5700 5800 5700
+Wire Wire Line
+	5800 5700 5800 4800
+Connection ~ 3200 5400
+Connection ~ 4500 5700
+Connection ~ 5000 5700
+Text Label 3000 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	8800 4000 8800 4600
+Wire Wire Line
+	8800 4600 8800 4900
+Wire Wire Line
+	9000 4000 9000 4600
+Wire Wire Line
+	9000 4600 8800 4600
+Connection ~ 8800 4600
+Text Label 8800 4000 0    10   ~ 0
+GND
+Wire Wire Line
+	12100 6200 12100 6400
+Wire Wire Line
+	12100 6400 12500 6400
+Wire Wire Line
+	12500 6400 12500 6500
+Wire Wire Line
+	13000 6200 13000 6400
+Wire Wire Line
+	13000 6400 12500 6400
+Connection ~ 12500 6400
+Text Label 12100 6200 0    10   ~ 0
+GND
+Wire Wire Line
+	14900 6300 14900 6200
+Wire Wire Line
+	14900 6200 15500 6200
+Wire Wire Line
+	15500 6200 15500 6000
+Wire Wire Line
+	15500 6200 16200 6200
+Wire Wire Line
+	16200 6200 16200 5500
+Wire Wire Line
+	16200 6200 16700 6200
+Wire Wire Line
+	16700 6200 16700 5500
+Wire Wire Line
+	16700 6200 17200 6200
+Wire Wire Line
+	17200 6200 17200 5500
+Connection ~ 15500 6200
+Connection ~ 16200 6200
+Connection ~ 16700 6200
+Text Label 14900 6300 0    10   ~ 0
+GND
+Wire Wire Line
+	14700 3400 15200 3400
+Wire Wire Line
+	15200 3400 15200 3500
+Text Label 14700 3400 0    10   ~ 0
+GND
+Wire Wire Line
+	18000 4700 18000 4800
+Wire Wire Line
+	18000 4800 18100 4800
+Wire Wire Line
+	18100 4800 18200 4800
+Wire Wire Line
+	18200 4800 18200 4900
+Wire Wire Line
+	18100 4700 18100 4800
+Wire Wire Line
+	18200 4700 18200 4800
+Wire Wire Line
+	18300 4700 18300 4800
+Wire Wire Line
+	18300 4800 18200 4800
+Wire Wire Line
+	18300 4800 18400 4800
+Wire Wire Line
+	18400 4800 18400 4700
+Wire Wire Line
+	18400 4800 18500 4800
+Wire Wire Line
+	18500 4800 18500 4700
+Wire Wire Line
+	18500 4800 18600 4800
+Wire Wire Line
+	18600 4800 18600 4700
+Wire Wire Line
+	18600 4800 18700 4800
+Wire Wire Line
+	18700 4800 18700 4700
+Connection ~ 18100 4800
+Connection ~ 18200 4800
+Connection ~ 18300 4800
+Connection ~ 18400 4800
+Connection ~ 18500 4800
+Connection ~ 18600 4800
+Text Label 18000 4700 0    10   ~ 0
+GND
+Wire Wire Line
+	2100 1400 2100 1800
+Text Label 2100 1800 3    40   ~ 0
+VCC_SENSE
+Wire Wire Line
+	18900 4300 18900 4000
+Text Label 18900 4000 1    50   ~ 0
+VCC_SENSE
+Wire Wire Line
+	2000 1700 2000 1400
+Text Label 2000 1700 3    70   ~ 0
+BB
+Wire Wire Line
+	2600 3900 2600 2100
+Wire Wire Line
+	3400 3900 3000 3900
+Wire Wire Line
+	3000 3900 2600 3900
+Wire Wire Line
+	3900 3800 3400 3800
+Wire Wire Line
+	3400 3800 3400 3900
+Text Label 2600 2100 1    70   ~ 0
+BB
+Connection ~ 3000 3900
+Connection ~ 3400 3900
+Wire Wire Line
+	14100 3800 13700 3800
+Text Label 13700 3800 2    70   ~ 0
+BB
+Wire Wire Line
+	3900 4700 3900 4200
+Text Label 3900 4400 0    70   ~ 0
+VIN
+Wire Wire Line
+	8400 2700 8100 2700
+Text Label 8100 2700 2    70   ~ 0
+VIN
+Wire Wire Line
+	8400 3100 8000 3100
+Text Label 8000 3100 2    70   ~ 0
+COMP
+Wire Wire Line
+	5000 4200 5000 4100
+Wire Wire Line
+	5000 4100 5000 4000
+Wire Wire Line
+	4500 5000 4500 4100
+Wire Wire Line
+	4500 4100 5000 4100
+Connection ~ 5000 4100
+Text Label 5000 4000 1    70   ~ 0
+COMP
+Wire Wire Line
+	5000 4600 5000 5000
+Wire Wire Line
+	9100 2400 9100 2100
+Text Label 9100 2100 1    70   ~ 0
+FB
+Wire Wire Line
+	15500 5100 15500 5600
+Text Label 15500 5300 2    70   ~ 0
+FB
+Wire Wire Line
+	9900 3200 10100 3200
+Text Label 10100 3200 0    70   ~ 0
+DR
+Wire Wire Line
+	12700 4900 12300 4900
+Text Label 12300 4900 2    70   ~ 0
+DR
+Wire Wire Line
+	9900 3500 10300 3500
+Text Label 10300 3500 0    70   ~ 0
+ISEN
+Wire Wire Line
+	12100 5900 12100 5400
+Wire Wire Line
+	12100 5400 12200 5400
+Text Label 12100 5400 2    70   ~ 0
+ISEN
+Wire Wire Line
+	9300 4000 9300 4400
+Text Label 9300 4400 3    70   ~ 0
+FA
+Wire Wire Line
+	5800 4400 5800 4100
+Text Label 5800 4100 1    70   ~ 0
+FA
+Wire Wire Line
+	12600 5400 13000 5400
+Wire Wire Line
+	13000 5400 13000 5100
+Wire Wire Line
+	13000 5800 13000 5400
+Connection ~ 13000 5400
+Text Label 13000 5400 0    70   ~ 0
+SOURCE
+Wire Wire Line
+	13000 4700 13000 4400
+Wire Wire Line
+	13000 4400 13000 3400
+Wire Wire Line
+	14300 4200 14000 4200
+Wire Wire Line
+	14000 4200 14000 4400
+Wire Wire Line
+	14000 4400 14000 4700
+Wire Wire Line
+	14000 4700 14300 4700
+Wire Wire Line
+	14000 4400 13000 4400
+Wire Wire Line
+	13000 3400 14100 3400
+Text Label 13000 4400 2    70   ~ 0
+VIN3
+Connection ~ 14000 4400
+Connection ~ 13000 4400
+Wire Wire Line
+	14600 4700 14800 4700
+Wire Wire Line
+	14600 4200 14800 4200
+Wire Wire Line
+	15100 4500 14800 4500
+Wire Wire Line
+	14800 4500 14800 4200
+Wire Wire Line
+	14800 4700 14800 4500
+Wire Wire Line
+	14800 4200 14800 3800
+Wire Wire Line
+	14800 3800 14700 3800
+Connection ~ 14800 4500
+Connection ~ 14800 4200
+Text Label 14800 3800 0    70   ~ 0
+VOUT
+Wire Wire Line
+	15500 4500 15500 4700
+Wire Wire Line
+	15500 4500 16200 4500
+Wire Wire Line
+	16200 4500 16200 5200
+Wire Wire Line
+	16200 4500 16700 4500
+Wire Wire Line
+	16700 4500 16700 5200
+Wire Wire Line
+	16700 4500 17200 4500
+Wire Wire Line
+	17200 4500 17200 5200
+Wire Wire Line
+	17200 4500 17200 4200
+Connection ~ 15500 4500
+Connection ~ 16200 4500
+Connection ~ 16700 4500
+Connection ~ 17200 4500
+Text Label 15500 4500 0    10   ~ 0
+5V
+Wire Wire Line
+	18000 4300 18000 4200
+Wire Wire Line
+	18000 4200 18100 4200
+Wire Wire Line
+	18100 4200 18200 4200
+Wire Wire Line
+	18200 4200 18200 4100
+Wire Wire Line
+	18100 4300 18100 4200
+Wire Wire Line
+	18200 4300 18200 4200
+Wire Wire Line
+	18300 4300 18300 4200
+Wire Wire Line
+	18300 4200 18200 4200
+Wire Wire Line
+	18400 4300 18400 4200
+Wire Wire Line
+	18400 4200 18300 4200
+Wire Wire Line
+	18500 4300 18500 4200
+Wire Wire Line
+	18500 4200 18400 4200
+Wire Wire Line
+	18600 4300 18600 4200
+Wire Wire Line
+	18600 4200 18500 4200
+Connection ~ 18100 4200
+Connection ~ 18200 4200
+Connection ~ 18300 4200
+Connection ~ 18400 4200
+Connection ~ 18500 4200
+Text Label 18000 4300 0    10   ~ 0
+5V
+Wire Wire Line
+	2800 1300 2800 1600
+Wire Wire Line
+	2800 1600 3200 1600
+Wire Wire Line
+	3200 1600 3200 1300
+Text Label 3200 1300 1    50   ~ 0
+STAT
+Wire Wire Line
+	18900 4700 18900 4800
+Text Label 18900 4800 3    50   ~ 0
+STAT
+$Comp
+L PowerBoard-Boost-v2-eagle-import:CONN_04LOCK J?
+U 1 1 5EC9B602
+P 2000 1200
+AR Path="/5EC9B602" Ref="J?"  Part="1" 
+AR Path="/5E8AAE5F/5EC9B602" Ref="J201"  Part="1" 
+F 0 "J?" H 1800 1520 70  0000 L BNN
+F 1 "CONN_04LOCK" H 1800 910 70  0000 L BNN
+F 2 "PowerBoard-Boost-v2:1X04_LOCK" H 2000 1200 50  0001 C CNN
+F 3 "" H 2000 1200 50  0001 C CNN
+	1    2000 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:VCC #SUPPLY?
+U 1 1 5EC95C3E
+P 1700 1000
+AR Path="/5EC95C3E" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5E8AAE5F/5EC95C3E" Ref="#SUPPLY0201"  Part="1" 
+F 0 "#SUPPLY?" H 1700 1000 50  0001 C CNN
+F 1 "VCC" H 1700 1110 59  0000 C BNN
+F 2 "" H 1700 1000 50  0001 C CNN
+F 3 "" H 1700 1000 50  0001 C CNN
+	1    1700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:GND #GND?
+U 1 1 F6847280
+P 2300 1700
+AR Path="/F6847280" Ref="#GND?"  Part="1" 
+AR Path="/5E8AAE5F/F6847280" Ref="#GND0201"  Part="1" 
+F 0 "#GND?" H 2300 1700 50  0001 C CNN
+F 1 "GND" H 2200 1600 59  0000 L BNN
+F 2 "" H 2300 1700 50  0001 C CNN
+F 3 "" H 2300 1700 50  0001 C CNN
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:LM3488QMM_NOPBDGK8-M U?
+U 1 1 5EC95C37
+P 7300 2700
+AR Path="/5EC95C37" Ref="U?"  Part="1" 
+AR Path="/5E8AAE5F/5EC95C37" Ref="U201"  Part="1" 
+F 0 "U?" H 8604 2839 69  0000 L BNN
+F 1 "LM3488QMM_NOPBDGK8-M" H 9299 2849 69  0000 L BNN
+F 2 "PowerBoard-Boost-v2:DGK8-M" H 7300 2700 50  0001 C CNN
+F 3 "" H 7300 2700 50  0001 C CNN
+	1    7300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:INDUCTOR_DUAL L?
+U 1 1 FF1B59BB
+P 14400 3600
+AR Path="/FF1B59BB" Ref="L?"  Part="1" 
+AR Path="/5E8AAE5F/FF1B59BB" Ref="L201"  Part="1" 
+F 0 "L?" H 14250 3800 59  0000 L BNN
+F 1 "INDUCTOR_DUAL" H 14250 3290 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:DRQ125" H 14400 3600 50  0001 C CNN
+F 3 "" H 14400 3600 50  0001 C CNN
+	1    14400 3600
+	1    0    0    1   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:C-USC1206 COUT?
+U 1 1 AE2CCE7A
+P 17200 5300
+AR Path="/AE2CCE7A" Ref="COUT?"  Part="1" 
+AR Path="/5E8AAE5F/AE2CCE7A" Ref="COUT203"  Part="1" 
+F 0 "COUT?" H 17240 5325 59  0000 L BNN
+F 1 "47uF" H 17240 5135 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:C1206" H 17200 5300 50  0001 C CNN
+F 3 "" H 17200 5300 50  0001 C CNN
+	1    17200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:C-USC1206 COUT?
+U 1 1 E7C02425
+P 16200 5300
+AR Path="/E7C02425" Ref="COUT?"  Part="1" 
+AR Path="/5E8AAE5F/E7C02425" Ref="COUT201"  Part="1" 
+F 0 "COUT?" H 16240 5325 59  0000 L BNN
+F 1 "47uF" H 16240 5135 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:C1206" H 16200 5300 50  0001 C CNN
+F 3 "" H 16200 5300 50  0001 C CNN
+	1    16200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:C-USC1206 COUT?
+U 1 1 84B09788
+P 16700 5300
+AR Path="/84B09788" Ref="COUT?"  Part="1" 
+AR Path="/5E8AAE5F/84B09788" Ref="COUT202"  Part="1" 
+F 0 "COUT?" H 16740 5325 59  0000 L BNN
+F 1 "47uF" H 16740 5135 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:C1206" H 16700 5300 50  0001 C CNN
+F 3 "" H 16700 5300 50  0001 C CNN
+	1    16700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:C-USC0805 CCOMP?
+U 1 1 DFF11A9A
+P 4500 5100
+AR Path="/DFF11A9A" Ref="CCOMP?"  Part="1" 
+AR Path="/5E8AAE5F/DFF11A9A" Ref="CCOMP201"  Part="1" 
+F 0 "CCOMP?" H 4540 5125 59  0000 L BNN
+F 1 "15nF" H 4540 4935 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:C0805" H 4500 5100 50  0001 C CNN
+F 3 "" H 4500 5100 50  0001 C CNN
+	1    4500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:R-US_R1206 RFB?
+U 1 1 38904181
+P 15500 4900
+AR Path="/38904181" Ref="RFB?"  Part="1" 
+AR Path="/5E8AAE5F/38904181" Ref="RFB201"  Part="1" 
+F 0 "RFB?" H 15350 4959 59  0000 L BNN
+F 1 "29.4K" H 15350 4770 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:R1206" H 15500 4900 50  0001 C CNN
+F 3 "" H 15500 4900 50  0001 C CNN
+	1    15500 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:C-USC0805 CFILT?
+U 1 1 D7935983
+P 12100 6000
+AR Path="/D7935983" Ref="CFILT?"  Part="1" 
+AR Path="/5E8AAE5F/D7935983" Ref="CFILT201"  Part="1" 
+F 0 "CFILT?" H 12140 6025 59  0000 L BNN
+F 1 "1.5nF" H 12140 5835 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:C0805" H 12100 6000 50  0001 C CNN
+F 3 "" H 12100 6000 50  0001 C CNN
+	1    12100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:R-US_R1206 RSENSE?
+U 1 1 499AC861
+P 13000 6000
+AR Path="/499AC861" Ref="RSENSE?"  Part="1" 
+AR Path="/5E8AAE5F/499AC861" Ref="RSENSE201"  Part="1" 
+F 0 "RSENSE?" H 12850 6059 59  0000 L BNN
+F 1 "0.009" H 12850 5870 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:R1206" H 13000 6000 50  0001 C CNN
+F 3 "" H 13000 6000 50  0001 C CNN
+	1    13000 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:C-USC1206 CCOMP?
+U 1 1 7C631244
+P 5000 5100
+AR Path="/7C631244" Ref="CCOMP?"  Part="1" 
+AR Path="/5E8AAE5F/7C631244" Ref="CCOMP202"  Part="1" 
+F 0 "CCOMP?" H 5040 5125 59  0000 L BNN
+F 1 "0.47uF" H 5040 4935 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:C1206" H 5000 5100 50  0001 C CNN
+F 3 "" H 5000 5100 50  0001 C CNN
+	1    5000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:C-USC0805 CSEP?
+U 1 1 EC47206C
+P 14500 4200
+AR Path="/EC47206C" Ref="CSEP?"  Part="1" 
+AR Path="/5E8AAE5F/EC47206C" Ref="CSEP201"  Part="1" 
+F 0 "CSEP?" H 14540 4225 59  0000 L BNN
+F 1 "3.3uF" H 14540 4035 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:C0805" H 14500 4200 50  0001 C CNN
+F 3 "" H 14500 4200 50  0001 C CNN
+	1    14500 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:C-USC0805 CSEP?
+U 1 1 92D3AF0B
+P 14500 4700
+AR Path="/92D3AF0B" Ref="CSEP?"  Part="1" 
+AR Path="/5E8AAE5F/92D3AF0B" Ref="CSEP202"  Part="1" 
+F 0 "CSEP?" H 14540 4725 59  0000 L BNN
+F 1 "3.3uF" H 14540 4535 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:C0805" H 14500 4700 50  0001 C CNN
+F 3 "" H 14500 4700 50  0001 C CNN
+	1    14500 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:R-US_R1206 RFB?
+U 1 1 C172FADC
+P 15500 5800
+AR Path="/C172FADC" Ref="RFB?"  Part="1" 
+AR Path="/5E8AAE5F/C172FADC" Ref="RFB202"  Part="1" 
+F 0 "RFB?" H 15350 5859 59  0000 L BNN
+F 1 "10k" H 15350 5670 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:R1206" H 15500 5800 50  0001 C CNN
+F 3 "" H 15500 5800 50  0001 C CNN
+	1    15500 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:C-USC1206 CBP?
+U 1 1 4D7930F7
+P 3900 4800
+AR Path="/4D7930F7" Ref="CBP?"  Part="1" 
+AR Path="/5E8AAE5F/4D7930F7" Ref="CBP201"  Part="1" 
+F 0 "CBP?" H 3940 4825 59  0000 L BNN
+F 1 "0.1uF" H 3940 4635 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:C1206" H 3900 4800 50  0001 C CNN
+F 3 "" H 3900 4800 50  0001 C CNN
+	1    3900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:R-US_R1206 RFILT?
+U 1 1 7E300F21
+P 12400 5400
+AR Path="/7E300F21" Ref="RFILT?"  Part="1" 
+AR Path="/5E8AAE5F/7E300F21" Ref="RFILT201"  Part="1" 
+F 0 "RFILT?" H 12250 5459 59  0000 L BNN
+F 1 "100" H 12250 5270 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:R1206" H 12400 5400 50  0001 C CNN
+F 3 "" H 12400 5400 50  0001 C CNN
+	1    12400 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:R-US_R0805 RFADJ?
+U 1 1 1375AE70
+P 5800 4600
+AR Path="/1375AE70" Ref="RFADJ?"  Part="1" 
+AR Path="/5E8AAE5F/1375AE70" Ref="RFADJ201"  Part="1" 
+F 0 "RFADJ?" H 5650 4659 59  0000 L BNN
+F 1 "76.8K" H 5650 4470 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:R0805" H 5800 4600 50  0001 C CNN
+F 3 "" H 5800 4600 50  0001 C CNN
+	1    5800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:R-US_R0805 RBP?
+U 1 1 B77E7E65
+P 3900 4000
+AR Path="/B77E7E65" Ref="RBP?"  Part="1" 
+AR Path="/5E8AAE5F/B77E7E65" Ref="RBP201"  Part="1" 
+F 0 "RBP?" H 3750 4059 59  0000 L BNN
+F 1 "20" H 3750 3870 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:R0805" H 3900 4000 50  0001 C CNN
+F 3 "" H 3900 4000 50  0001 C CNN
+	1    3900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:R-US_R0805 RCOMP?
+U 1 1 7C32147D
+P 5000 4400
+AR Path="/7C32147D" Ref="RCOMP?"  Part="1" 
+AR Path="/5E8AAE5F/7C32147D" Ref="RCOMP201"  Part="1" 
+F 0 "RCOMP?" H 4850 4459 59  0000 L BNN
+F 1 "215" H 4850 4270 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:R0805" H 5000 4400 50  0001 C CNN
+F 3 "" H 5000 4400 50  0001 C CNN
+	1    5000 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:MOSFET_NSI4778DY M?
+U 1 1 5EC95C35
+P 13000 4900
+AR Path="/5EC95C35" Ref="M?"  Part="1" 
+AR Path="/5E8AAE5F/5EC95C35" Ref="M201"  Part="1" 
+F 0 "M?" H 13200 5000 59  0000 L BNN
+F 1 "MOSFET_NSI4778DY" H 13200 4900 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:8SOIC" H 13000 4900 50  0001 C CNN
+F 3 "" H 13000 4900 50  0001 C CNN
+	1    13000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:SL44-E3_57TDIODE_DO214AB-M D?
+U 1 1 C78C3FBD
+P 15100 4500
+AR Path="/C78C3FBD" Ref="D?"  Part="1" 
+AR Path="/5E8AAE5F/C78C3FBD" Ref="D201"  Part="1" 
+F 0 "D?" H 15200 4706 116 0000 L BNN
+F 1 "SL44-E3_57TDIODE_DO214AB-M" H 15200 4582 116 0000 L BNN
+F 2 "PowerBoard-Boost-v2:DIODE_DO214AB-M" H 15100 4500 50  0001 C CNN
+F 3 "" H 15100 4500 50  0001 C CNN
+	1    15100 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:CPOL-US153CLV-0505 CIN?
+U 1 1 1FAEAAFF
+P 3000 4000
+AR Path="/1FAEAAFF" Ref="CIN?"  Part="1" 
+AR Path="/5E8AAE5F/1FAEAAFF" Ref="CIN201"  Part="1" 
+F 0 "CIN?" H 3040 4025 59  0000 L BNN
+F 1 "3.3uF" H 3040 3835 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:153CLV-0505" H 3000 4000 50  0001 C CNN
+F 3 "" H 3000 4000 50  0001 C CNN
+	1    3000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:CPOL-US153CLV-0505 CIN?
+U 1 1 7AD0DA56
+P 3400 4000
+AR Path="/7AD0DA56" Ref="CIN?"  Part="1" 
+AR Path="/5E8AAE5F/7AD0DA56" Ref="CIN202"  Part="1" 
+F 0 "CIN?" H 3440 4025 59  0000 L BNN
+F 1 "3.3uF" H 3440 3835 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:153CLV-0505" H 3400 4000 50  0001 C CNN
+F 3 "" H 3400 4000 50  0001 C CNN
+	1    3400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:GND #GND?
+U 1 1 8DA2BB24
+P 3200 6000
+AR Path="/8DA2BB24" Ref="#GND?"  Part="1" 
+AR Path="/5E8AAE5F/8DA2BB24" Ref="#GND0202"  Part="1" 
+F 0 "#GND?" H 3200 6000 50  0001 C CNN
+F 1 "GND" H 3100 5900 59  0000 L BNN
+F 2 "" H 3200 6000 50  0001 C CNN
+F 3 "" H 3200 6000 50  0001 C CNN
+	1    3200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:GND #GND?
+U 1 1 5EC9B60C
+P 8800 5000
+AR Path="/5EC9B60C" Ref="#GND?"  Part="1" 
+AR Path="/5E8AAE5F/5EC9B60C" Ref="#GND0203"  Part="1" 
+F 0 "#GND?" H 8800 5000 50  0001 C CNN
+F 1 "GND" H 8700 4900 59  0000 L BNN
+F 2 "" H 8800 5000 50  0001 C CNN
+F 3 "" H 8800 5000 50  0001 C CNN
+	1    8800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:GND #GND?
+U 1 1 5EC95C3F
+P 12500 6600
+AR Path="/5EC95C3F" Ref="#GND?"  Part="1" 
+AR Path="/5E8AAE5F/5EC95C3F" Ref="#GND0204"  Part="1" 
+F 0 "#GND?" H 12500 6600 50  0001 C CNN
+F 1 "GND" H 12400 6500 59  0000 L BNN
+F 2 "" H 12500 6600 50  0001 C CNN
+F 3 "" H 12500 6600 50  0001 C CNN
+	1    12500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:GND #GND?
+U 1 1 5EC9B606
+P 14900 6400
+AR Path="/5EC9B606" Ref="#GND?"  Part="1" 
+AR Path="/5E8AAE5F/5EC9B606" Ref="#GND0205"  Part="1" 
+F 0 "#GND?" H 14900 6400 50  0001 C CNN
+F 1 "GND" H 14800 6300 59  0000 L BNN
+F 2 "" H 14900 6400 50  0001 C CNN
+F 3 "" H 14900 6400 50  0001 C CNN
+	1    14900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:5V #SUPPLY?
+U 1 1 F54A36B8
+P 17200 4200
+AR Path="/F54A36B8" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5E8AAE5F/F54A36B8" Ref="#SUPPLY0202"  Part="1" 
+F 0 "#SUPPLY?" H 17200 4200 50  0001 C CNN
+F 1 "5V" H 17200 4310 59  0000 C BNN
+F 2 "" H 17200 4200 50  0001 C CNN
+F 3 "" H 17200 4200 50  0001 C CNN
+	1    17200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:GND #GND?
+U 1 1 5B6A58CA
+P 15200 3600
+AR Path="/5B6A58CA" Ref="#GND?"  Part="1" 
+AR Path="/5E8AAE5F/5B6A58CA" Ref="#GND0206"  Part="1" 
+F 0 "#GND?" H 15200 3600 50  0001 C CNN
+F 1 "GND" H 15100 3500 59  0000 L BNN
+F 2 "" H 15200 3600 50  0001 C CNN
+F 3 "" H 15200 3600 50  0001 C CNN
+	1    15200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:TEST_POINTROUND-1MM TP?
+U 1 1 C509BA13
+P 1200 1400
+AR Path="/C509BA13" Ref="TP?"  Part="1" 
+AR Path="/5E8AAE5F/C509BA13" Ref="TP201"  Part="1" 
+F 0 "TP?" H 1100 1700 42  0000 L BNN
+F 1 "Charger+" V 1100 1400 42  0000 L BNN
+F 2 "PowerBoard-Boost-v2:TEST_POINT_ROUND_1MM" H 1200 1400 50  0001 C CNN
+F 3 "" H 1200 1400 50  0001 C CNN
+	1    1200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:2X10-2MMSMD J?
+U 1 1 5EC95C40
+P 17900 4600
+AR Path="/5EC95C40" Ref="J?"  Part="1" 
+AR Path="/5E8AAE5F/5EC95C40" Ref="J202"  Part="1" 
+F 0 "J?" H 19000 4700 59  0000 L BNN
+F 1 "2X10-2MMSMD" H 19000 4600 59  0000 L BNN
+F 2 "PowerBoard-Boost-v2:2X10-2MM" H 17900 4600 50  0001 C CNN
+F 3 "" H 17900 4600 50  0001 C CNN
+	1    17900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:5V #SUPPLY?
+U 1 1 5EC95C3D
+P 18200 4100
+AR Path="/5EC95C3D" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5E8AAE5F/5EC95C3D" Ref="#SUPPLY0203"  Part="1" 
+F 0 "#SUPPLY?" H 18200 4100 50  0001 C CNN
+F 1 "5V" H 18200 4210 59  0000 C BNN
+F 2 "" H 18200 4100 50  0001 C CNN
+F 3 "" H 18200 4100 50  0001 C CNN
+	1    18200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:GND #GND?
+U 1 1 C2693486
+P 18200 5000
+AR Path="/C2693486" Ref="#GND?"  Part="1" 
+AR Path="/5E8AAE5F/C2693486" Ref="#GND0207"  Part="1" 
+F 0 "#GND?" H 18200 5000 50  0001 C CNN
+F 1 "GND" H 18100 4900 59  0000 L BNN
+F 2 "" H 18200 5000 50  0001 C CNN
+F 3 "" H 18200 5000 50  0001 C CNN
+	1    18200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard-Boost-v2-eagle-import:TEST_POINTROUND-1MM TP2-STAT?
+U 1 1 D723B928
+P 2800 1300
+AR Path="/D723B928" Ref="TP2-STAT?"  Part="1" 
+AR Path="/5E8AAE5F/D723B928" Ref="TP2-STAT201"  Part="1" 
+F 0 "TP2-STAT?" H 2700 1600 42  0000 L BNN
+F 1 "Charger+" V 2700 1300 42  0000 L BNN
+F 2 "PowerBoard-Boost-v2:TEST_POINT_ROUND_1MM" H 2800 1300 50  0001 C CNN
+F 3 "" H 2800 1300 50  0001 C CNN
+	1    2800 1300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
