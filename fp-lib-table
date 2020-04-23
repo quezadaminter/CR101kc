@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name CPU)(type KiCad)(uri "$(KIPRJMOD)/CPU.pretty")(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri C:/Users/mquezada/Documents/KiCAD/library/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name Silicon-Custom)(type KiCad)(uri C:/Users/mquezada/Documents/KiCAD/library/SparkFun-KiCad-Libraries/Footprints/Silicon-Custom.pretty)(options "")(descr ""))
+  (lib (name Silicon-Standard)(type KiCad)(uri C:/Users/mquezada/Documents/KiCAD/library/SparkFun-KiCad-Libraries/Footprints/Silicon-Standard.pretty)(options "")(descr ""))
 )

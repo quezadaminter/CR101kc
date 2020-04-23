@@ -399,14 +399,16 @@ NoConn ~ 4950 6900
 NoConn ~ 4950 6800
 NoConn ~ 3050 6800
 $Sheet
-S 3950 1000 700  500 
+S 3950 1000 900  550 
 U 5E9D5ED5
 F0 "Micro Controller Devices" 39
 F1 "MicroController.sch" 39
 F2 "SDA5" I L 3950 1300 39 
 F3 "SCL5" I L 3950 1200 39 
-F4 "TINT" I L 3950 1100 39 
+F4 "85RES" I L 3950 1100 39 
 F5 "CH_STAT" I L 3950 1400 39 
+F6 "SCROLL_INT" I R 4850 1450 39 
+F7 "PI_RESET_TOGGLE" I R 4850 1050 39 
 $EndSheet
 $Comp
 L power:+BATT #PWR0101
@@ -694,7 +696,8 @@ F0 "I2C Devices" 39
 F1 "I2C.sch" 39
 F2 "SCL" I L 3950 1800 39 
 F3 "SDA" I L 3950 1900 39 
-F4 "TINT" I L 3950 2000 39 
+F4 "85RES" I L 3950 2000 39 
+F5 "SCROLL_INT" I R 4650 1800 39 
 $EndSheet
 Text Notes 3200 7250 0    20   ~ 0
 I2C slave setup:\nhttps://raspberrypi.stackexchange.com/questions/76109/raspberry-as-an-i2c-slave
@@ -716,4 +719,75 @@ F 3 "" H 5250 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 4300 5250 4500
+$Comp
+L Connector:TestPoint TP102
+U 1 1 5EA4DCF3
+P 6800 1200
+AR Path="/5EA4DCF3" Ref="TP102"  Part="1" 
+AR Path="/5E916134/5EA4DCF3" Ref="TP?"  Part="1" 
+AR Path="/5E9D5ED5/5EA4DCF3" Ref="TP?"  Part="1" 
+F 0 "TP102" H 6900 1450 50  0000 R CNN
+F 1 "TestPoint" H 6742 1317 50  0001 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7000 1200 50  0001 C CNN
+F 3 "~" H 7000 1200 50  0001 C CNN
+	1    6800 1200
+	-1   0    0    1   
+$EndComp
+Text Label 6800 1200 2    39   ~ 0
+TGUARD
+$Comp
+L Device:C C101
+U 1 1 5EA4DCFC
+P 6400 1200
+AR Path="/5EA4DCFC" Ref="C101"  Part="1" 
+AR Path="/5E916134/5EA4DCFC" Ref="C?"  Part="1" 
+F 0 "C101" V 6652 1200 50  0000 C CNN
+F 1 "47uF" V 6561 1200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 1050 50  0001 C CNN
+F 3 "~" H 6400 1200 50  0001 C CNN
+F 4 " C28323" H 6400 1200 50  0001 C CNN "LCSC Part Number"
+F 5 "C0805C105K3RACTU" H 6400 1200 50  0001 C CNN "DigiKey"
+	1    6400 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CPU-eagle-import:GND #GND0106
+U 1 1 5EA4DD02
+P 6100 1350
+AR Path="/5EA4DD02" Ref="#GND0106"  Part="1" 
+AR Path="/5E916134/5EA4DD02" Ref="#GND?"  Part="1" 
+F 0 "#GND0106" H 6100 1350 50  0001 C CNN
+F 1 "GND" H 6100 1340 59  0000 C TNN
+F 2 "" H 6100 1350 50  0001 C CNN
+F 3 "" H 6100 1350 50  0001 C CNN
+	1    6100 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1250 6100 1200
+Wire Wire Line
+	6100 1200 6250 1200
+Wire Wire Line
+	6550 1200 6800 1200
+Wire Wire Line
+	4850 1450 4950 1450
+Wire Wire Line
+	4950 1450 4950 1800
+Wire Wire Line
+	4650 1800 4950 1800
+$Comp
+L Connector:TestPoint TP101
+U 1 1 5EA23027
+P 4950 3300
+F 0 "TP101" H 5008 3418 50  0000 L CNN
+F 1 "PI_RESET" H 5008 3327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5150 3300 50  0001 C CNN
+F 3 "~" H 5150 3300 50  0001 C CNN
+	1    4950 3300
+	1    0    0    -1  
+$EndComp
+Text Label 4950 3300 3    39   ~ 0
+PI_RESET_TOGGLE
+Text Label 4850 1050 0    39   ~ 0
+PI_RESET_TOGGLE
 $EndSCHEMATC
