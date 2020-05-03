@@ -19,7 +19,7 @@ U 1 1 87B7DF34
 P 3950 6200
 F 0 "Pi101" H 3150 7600 50  0000 L BNN
 F 1 "RPI-ZERO" H 3150 7525 50  0000 L BNN
-F 2 "CPU:RASPBERRYPI_Zero-No_Mounting_Holes" H 3950 6200 50  0001 C CNN
+F 2 "CPU:RASPBERRYPI_Zero-No_Mounting_Holes_SMD_Flat" H 3950 6200 50  0001 C CNN
 F 3 "" H 3950 6200 50  0001 C CNN
 	1    3950 6200
 	1    0    0    -1  
@@ -135,21 +135,6 @@ F 3 "" H 1950 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0102
-U 1 1 5E97A3AA
-P 2950 4950
-F 0 "#PWR0102" H 2950 4800 50  0001 C CNN
-F 1 "+3V3" H 2965 5123 50  0000 C CNN
-F 2 "" H 2950 4950 50  0001 C CNN
-F 3 "" H 2950 4950 50  0001 C CNN
-	1    2950 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 5000 2950 5000
-Wire Wire Line
-	2950 5000 2950 4950
-$Comp
 L CPU-eagle-import:GND #GND0102
 U 1 1 5E988321
 P 2550 7150
@@ -175,10 +160,7 @@ Wire Wire Line
 	2550 5400 2550 6200
 Connection ~ 2550 6200
 Wire Wire Line
-	2950 5000 2950 5800
-Wire Wire Line
 	2950 5800 3050 5800
-Connection ~ 2950 5000
 $Comp
 L CPU-eagle-import:GND #GND0105
 U 1 1 5E9B2336
@@ -271,14 +253,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 2900 3400 2900
 Connection ~ 3500 2900
-Text Label 3600 3200 2    39   ~ 0
-Pi7
-Text Label 3600 3400 2    39   ~ 0
-Pi11
-Text Label 3600 3500 2    39   ~ 0
-Pi13
-Text Label 3600 3600 2    39   ~ 0
-Pi15
 Text Label 3600 3800 2    39   ~ 0
 MOSI
 Text Label 3600 3900 2    39   ~ 0
@@ -297,10 +271,6 @@ Text Label 4100 3900 0    39   ~ 0
 TFT_DC
 Text Label 4100 3700 0    39   ~ 0
 RT_INIT
-Text Label 4100 3600 0    39   ~ 0
-Pi16
-Text Label 4100 3400 0    39   ~ 0
-Pi12
 Text Label 4100 3300 0    39   ~ 0
 UARTB
 Text Label 4100 3200 0    39   ~ 0
@@ -358,16 +328,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 3300 3300 4100
 Connection ~ 3300 4100
-Text Label 3050 5300 2    39   ~ 0
-Pi7
-Text Label 3050 5500 2    39   ~ 0
-Pi11
-Text Label 3050 5600 2    39   ~ 0
-Pi13
-Text Label 3050 5700 2    39   ~ 0
-Pi15
-Text Label 4950 5700 0    39   ~ 0
-Pi16
 NoConn ~ 1450 1500
 NoConn ~ 1550 1500
 $Comp
@@ -719,56 +679,6 @@ F 3 "" H 5250 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 4300 5250 4500
-$Comp
-L Connector:TestPoint TP102
-U 1 1 5EA4DCF3
-P 6800 1200
-AR Path="/5EA4DCF3" Ref="TP102"  Part="1" 
-AR Path="/5E916134/5EA4DCF3" Ref="TP?"  Part="1" 
-AR Path="/5E9D5ED5/5EA4DCF3" Ref="TP?"  Part="1" 
-F 0 "TP102" H 6900 1450 50  0000 R CNN
-F 1 "TestPoint" H 6742 1317 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7000 1200 50  0001 C CNN
-F 3 "~" H 7000 1200 50  0001 C CNN
-	1    6800 1200
-	-1   0    0    1   
-$EndComp
-Text Label 6800 1200 2    39   ~ 0
-TGUARD
-$Comp
-L Device:C C101
-U 1 1 5EA4DCFC
-P 6400 1200
-AR Path="/5EA4DCFC" Ref="C101"  Part="1" 
-AR Path="/5E916134/5EA4DCFC" Ref="C?"  Part="1" 
-F 0 "C101" V 6652 1200 50  0000 C CNN
-F 1 "47uF" V 6561 1200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 1050 50  0001 C CNN
-F 3 "~" H 6400 1200 50  0001 C CNN
-F 4 " C28323" H 6400 1200 50  0001 C CNN "LCSC Part Number"
-F 5 "C0805C105K3RACTU" H 6400 1200 50  0001 C CNN "DigiKey"
-	1    6400 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CPU-eagle-import:GND #GND0106
-U 1 1 5EA4DD02
-P 6100 1350
-AR Path="/5EA4DD02" Ref="#GND0106"  Part="1" 
-AR Path="/5E916134/5EA4DD02" Ref="#GND?"  Part="1" 
-F 0 "#GND0106" H 6100 1350 50  0001 C CNN
-F 1 "GND" H 6100 1340 59  0000 C TNN
-F 2 "" H 6100 1350 50  0001 C CNN
-F 3 "" H 6100 1350 50  0001 C CNN
-	1    6100 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 1250 6100 1200
-Wire Wire Line
-	6100 1200 6250 1200
-Wire Wire Line
-	6550 1200 6800 1200
 Wire Wire Line
 	4850 1450 4950 1450
 Wire Wire Line
@@ -790,4 +700,40 @@ Text Label 4950 3300 3    39   ~ 0
 PI_RESET_TOGGLE
 Text Label 4850 1050 0    39   ~ 0
 PI_RESET_TOGGLE
+NoConn ~ 3050 5700
+NoConn ~ 3050 5600
+NoConn ~ 3050 5500
+NoConn ~ 4950 5700
+NoConn ~ 4100 3600
+NoConn ~ 3600 3600
+NoConn ~ 3600 3500
+NoConn ~ 3600 3400
+NoConn ~ 3600 3200
+NoConn ~ 3050 5300
+Text Label 4100 3600 0    39   ~ 0
+Pi16
+Text Label 4100 3400 0    39   ~ 0
+Pi12
+Text Label 3600 3200 2    39   ~ 0
+Pi7
+Text Label 3600 3600 2    39   ~ 0
+Pi15
+Text Label 3600 3500 2    39   ~ 0
+Pi13
+Text Label 3600 3400 2    39   ~ 0
+Pi11
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 5E97A3AA
+P 2950 4950
+F 0 "#PWR0102" H 2950 4800 50  0001 C CNN
+F 1 "+3V3" H 2965 5123 50  0000 C CNN
+F 2 "" H 2950 4950 50  0001 C CNN
+F 3 "" H 2950 4950 50  0001 C CNN
+	1    2950 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4950 2950 5800
+NoConn ~ 3050 5000
 $EndSCHEMATC

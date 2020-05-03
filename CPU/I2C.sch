@@ -922,4 +922,41 @@ Wire Wire Line
 	7500 2150 8550 2150
 Connection ~ 8550 2150
 NoConn ~ 7500 1550
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EADA810
+P 9250 1400
+AR Path="/5EADA810" Ref="TP?"  Part="1" 
+AR Path="/5E916134/5EADA810" Ref="TP305"  Part="1" 
+AR Path="/5E9D5ED5/5EADA810" Ref="TP?"  Part="1" 
+F 0 "TP305" H 9350 1650 50  0000 R CNN
+F 1 "TestPoint" H 9192 1517 50  0001 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9450 1400 50  0001 C CNN
+F 3 "~" H 9450 1400 50  0001 C CNN
+	1    9250 1400
+	-1   0    0    1   
+$EndComp
+Text Label 9250 1400 2    39   ~ 0
+TGUARD
+$Comp
+L Device:C C?
+U 1 1 5EADA819
+P 8850 1400
+AR Path="/5EADA819" Ref="C?"  Part="1" 
+AR Path="/5E916134/5EADA819" Ref="C205"  Part="1" 
+F 0 "C205" V 9102 1400 50  0000 C CNN
+F 1 "47uF" V 9011 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8888 1250 50  0001 C CNN
+F 3 "~" H 8850 1400 50  0001 C CNN
+F 4 " C28323" H 8850 1400 50  0001 C CNN "LCSC Part Number"
+F 5 "C0805C105K3RACTU" H 8850 1400 50  0001 C CNN "DigiKey"
+	1    8850 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 1400 8700 1400
+Wire Wire Line
+	9000 1400 9250 1400
+Wire Wire Line
+	8550 1400 8550 2150
 $EndSCHEMATC
