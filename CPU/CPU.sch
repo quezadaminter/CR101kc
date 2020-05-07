@@ -650,7 +650,7 @@ Text Label 3050 6700 2    39   ~ 0
 SCL
 NoConn ~ 1350 1500
 $Sheet
-S 3950 1700 700  350 
+S 3950 1700 700  500 
 U 5E916134
 F0 "I2C Devices" 39
 F1 "I2C.sch" 39
@@ -658,6 +658,8 @@ F2 "SCL" I L 3950 1800 39
 F3 "SDA" I L 3950 1900 39 
 F4 "85RES" I L 3950 2000 39 
 F5 "SCROLL_INT" I R 4650 1800 39 
+F6 "SCL5" I L 3950 2100 39 
+F7 "SDA5" I L 3950 2150 39 
 $EndSheet
 Text Notes 3200 7250 0    20   ~ 0
 I2C slave setup:\nhttps://raspberrypi.stackexchange.com/questions/76109/raspberry-as-an-i2c-slave
@@ -736,4 +738,8 @@ $EndComp
 Wire Wire Line
 	2950 4950 2950 5800
 NoConn ~ 3050 5000
+Text Label 3950 2100 2    39   ~ 0
+SCL5
+Text Label 3950 2150 2    39   ~ 0
+SDA5
 $EndSCHEMATC
