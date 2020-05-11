@@ -968,8 +968,6 @@ F 4 " ‎709150001040006" H 8150 1600 50  0001 C CNN "DigiKey"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7550 1450 8150 1450
-Wire Wire Line
 	8150 1450 8150 1600
 Wire Wire Line
 	7500 1550 7950 1550
@@ -990,4 +988,6 @@ Text HLabel 6750 3150 0    39   Input ~ 0
 SCL5
 Text HLabel 7250 3150 2    39   Input ~ 0
 SDA5
+Wire Wire Line
+	7500 1450 8150 1450
 $EndSCHEMATC

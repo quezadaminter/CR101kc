@@ -780,9 +780,9 @@ Text HLabel 2400 5900 0    39   Input ~ 0
 SCL5
 Text HLabel 2400 6400 0    39   Input ~ 0
 85RES
-Text HLabel 2400 6500 0    39   Input ~ 0
+Text HLabel 1050 6500 0    39   Input ~ 0
 CH_STAT
-Text Label 2400 6600 2    39   ~ 0
+Text Label 5700 6300 0    39   ~ 0
 SWM
 Text Label 2400 6800 2    39   ~ 0
 BUZZ
@@ -889,7 +889,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 5000 2400 5000
 Wire Wire Line
-	1450 4800 2400 4800
+	1450 4800 1550 4800
 $Comp
 L Device:Resonator_Small Y?
 U 1 1 5EA6508B
@@ -1207,16 +1207,137 @@ $EndComp
 Wire Wire Line
 	10300 3000 10300 3150
 Connection ~ 10300 3000
-Text Label 1800 6700 2    39   ~ 0
+Text Label 1000 7200 2    39   ~ 0
 PI_PEN_PIN
 Text HLabel 2400 6300 0    39   Input ~ 0
 SCROLL_INT
 Text HLabel 2400 6200 0    39   Input ~ 0
 PI_RESET_TOGGLE
-NoConn ~ 5700 6300
-NoConn ~ 1800 6700
+NoConn ~ 1000 7200
 Wire Wire Line
-	700  4900 2400 4900
+	700  4900 900  4900
 Text Label 2400 6700 2    39   ~ 0
 PI_PWR_SW
+$Comp
+L CPU-eagle-import:R-US_R1206 R?
+U 1 1 5EB5AAED
+P 2000 6500
+AR Path="/5E916134/5EB5AAED" Ref="R?"  Part="1" 
+AR Path="/5EB5AAED" Ref="R?"  Part="1" 
+AR Path="/5E9D5ED5/5EB5AAED" Ref="R203"  Part="1" 
+F 0 "R203" H 1850 6559 59  0000 L BNN
+F 1 "2K" H 1850 6370 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2000 6500 50  0001 C CNN
+F 3 "" H 2000 6500 50  0001 C CNN
+F 4 " C17902" H 2000 6500 50  0001 C CNN "LCSC Part Number"
+F 5 "RC1206FR-0710KL" H 2000 6500 50  0001 C CNN "DigiKey"
+	1    2000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU-eagle-import:R-US_R1206 R?
+U 1 1 5EB66E47
+P 1200 6200
+AR Path="/5E916134/5EB66E47" Ref="R?"  Part="1" 
+AR Path="/5EB66E47" Ref="R?"  Part="1" 
+AR Path="/5E9D5ED5/5EB66E47" Ref="R202"  Part="1" 
+F 0 "R202" H 1050 6259 59  0000 L BNN
+F 1 "390K" H 1050 6070 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1200 6200 50  0001 C CNN
+F 3 "" H 1200 6200 50  0001 C CNN
+F 4 " C17902" H 1200 6200 50  0001 C CNN "LCSC Part Number"
+F 5 "RC1206FR-0710KL" H 1200 6200 50  0001 C CNN "DigiKey"
+	1    1200 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 6500 2200 6500
+$Comp
+L CPU-eagle-import:5V #SUPPLY?
+U 1 1 5EB7B867
+P 1200 5900
+AR Path="/5EB7B867" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5E9D5ED5/5EB7B867" Ref="#SUPPLY0202"  Part="1" 
+F 0 "#SUPPLY0202" H 1200 5900 50  0001 C CNN
+F 1 "5V" H 1200 6010 59  0000 C BNN
+F 2 "" H 1200 5900 50  0001 C CNN
+F 3 "" H 1200 5900 50  0001 C CNN
+	1    1200 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6000 1200 5900
+Wire Wire Line
+	1800 6500 1200 6500
+Wire Wire Line
+	1200 6400 1200 6500
+Connection ~ 1200 6500
+Wire Wire Line
+	1200 6500 1050 6500
+Wire Wire Line
+	2400 6600 1200 6600
+Wire Wire Line
+	1200 6600 1200 6500
+$Comp
+L Connector:TestPoint TPTX201
+U 1 1 5EBAA904
+P 1300 4450
+F 0 "TPTX201" H 1358 4568 50  0000 L CNN
+F 1 "TestPoint" H 1358 4477 50  0000 L CNN
+F 2 "" H 1500 4450 50  0001 C CNN
+F 3 "~" H 1500 4450 50  0001 C CNN
+	1    1300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TPRX201
+U 1 1 5EBAB0CD
+P 900 4450
+F 0 "TPRX201" H 958 4568 50  0000 L CNN
+F 1 "TestPoint" H 958 4477 50  0000 L CNN
+F 2 "" H 1100 4450 50  0001 C CNN
+F 3 "~" H 1100 4450 50  0001 C CNN
+	1    900  4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4450 1300 4550
+Wire Wire Line
+	1300 4550 1550 4550
+Wire Wire Line
+	1550 4550 1550 4800
+Connection ~ 1550 4800
+Wire Wire Line
+	1550 4800 2400 4800
+Wire Wire Line
+	900  4450 900  4900
+Connection ~ 900  4900
+Wire Wire Line
+	900  4900 2400 4900
+$Comp
+L Connector:TestPoint TP201
+U 1 1 5EBC17A3
+P 3750 1050
+F 0 "TP201" H 3808 1168 50  0000 L CNN
+F 1 "TestPoint" H 3808 1077 50  0000 L CNN
+F 2 "" H 3950 1050 50  0001 C CNN
+F 3 "~" H 3950 1050 50  0001 C CNN
+	1    3750 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU-eagle-import:GND #GND?
+U 1 1 5EBC21E1
+P 3750 1500
+AR Path="/5EBC21E1" Ref="#GND?"  Part="1" 
+AR Path="/5E9D5ED5/5EBC21E1" Ref="#GND0106"  Part="1" 
+F 0 "#GND0106" H 3750 1500 50  0001 C CNN
+F 1 "GND" H 3750 1500 59  0000 C TNN
+F 2 "" H 3750 1500 50  0001 C CNN
+F 3 "" H 3750 1500 50  0001 C CNN
+	1    3750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1050 3750 1400
 $EndSCHEMATC
