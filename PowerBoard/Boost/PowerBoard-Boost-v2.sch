@@ -305,7 +305,7 @@ Connection ~ 9800 1250
 Connection ~ 9900 1250
 Connection ~ 10000 1250
 $Comp
-L PowerBoard-Boost-v2-eagle-import:LM3488QMM_NOPBDGK8-M U?
+L PowerBoth-rescue:LM3488QMM_NOPBDGK8-M-PowerBoard-Boost-v2-eagle-import U?
 U 1 1 5ECBF6F0
 P 3500 1500
 AR Path="/5ECBF6F0" Ref="U?"  Part="1" 
@@ -320,7 +320,7 @@ F 3 "" H 3500 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:INDUCTOR_DUAL L?
+L PowerBoth-rescue:INDUCTOR_DUAL-PowerBoard-Boost-v2-eagle-import L?
 U 1 1 5ECBF6F6
 P 7750 3150
 AR Path="/5ECBF6F6" Ref="L?"  Part="1" 
@@ -335,7 +335,7 @@ F 3 "" H 7750 3150 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:C-USC1206 COUT?
+L PowerBoth-rescue:C-USC1206-PowerBoard-Boost-v2-eagle-import COUT?
 U 1 1 5ECBF6FC
 P 10550 4850
 AR Path="/5ECBF6FC" Ref="COUT?"  Part="1" 
@@ -350,7 +350,7 @@ F 3 "" H 10550 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:C-USC1206 COUT?
+L PowerBoth-rescue:C-USC1206-PowerBoard-Boost-v2-eagle-import COUT?
 U 1 1 5ECBF702
 P 9550 4850
 AR Path="/5ECBF702" Ref="COUT?"  Part="1" 
@@ -365,7 +365,7 @@ F 3 "" H 9550 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:C-USC1206 COUT?
+L PowerBoth-rescue:C-USC1206-PowerBoard-Boost-v2-eagle-import COUT?
 U 1 1 5ECBF708
 P 10050 4850
 AR Path="/5ECBF708" Ref="COUT?"  Part="1" 
@@ -380,7 +380,7 @@ F 3 "" H 10050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:C-USC0805 CCOMP?
+L PowerBoth-rescue:C-USC0805-PowerBoard-Boost-v2-eagle-import CCOMP?
 U 1 1 5ECBF70E
 P 3150 6400
 AR Path="/5ECBF70E" Ref="CCOMP?"  Part="1" 
@@ -395,7 +395,7 @@ F 3 "" H 3150 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:R-US_R1206 RFB?
+L PowerBoth-rescue:R-US_R1206-PowerBoard-Boost-v2-eagle-import RFB?
 U 1 1 5ECBF714
 P 8850 4450
 AR Path="/5ECBF714" Ref="RFB?"  Part="1" 
@@ -410,7 +410,7 @@ F 3 "" H 8850 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:C-USC0805 CFILT?
+L PowerBoth-rescue:C-USC0805-PowerBoard-Boost-v2-eagle-import CFILT?
 U 1 1 5ECBF71A
 P 5450 5550
 AR Path="/5ECBF71A" Ref="CFILT?"  Part="1" 
@@ -425,7 +425,7 @@ F 3 "" H 5450 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:R-US_R1206 RSENSE?
+L PowerBoth-rescue:R-US_R1206-PowerBoard-Boost-v2-eagle-import RSENSE?
 U 1 1 5ECBF720
 P 6350 5550
 AR Path="/5ECBF720" Ref="RSENSE?"  Part="1" 
@@ -440,7 +440,7 @@ F 3 "" H 6350 5550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:C-USC1206 CCOMP?
+L PowerBoth-rescue:C-USC1206-PowerBoard-Boost-v2-eagle-import CCOMP?
 U 1 1 5ECBF726
 P 3650 6400
 AR Path="/5ECBF726" Ref="CCOMP?"  Part="1" 
@@ -455,7 +455,7 @@ F 3 "" H 3650 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:C-USC0805 CSEP?
+L PowerBoth-rescue:C-USC0805-PowerBoard-Boost-v2-eagle-import CSEP?
 U 1 1 5ECBF72C
 P 7850 3750
 AR Path="/5ECBF72C" Ref="CSEP?"  Part="1" 
@@ -470,7 +470,7 @@ F 3 "" H 7850 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:C-USC0805 CSEP?
+L PowerBoth-rescue:C-USC0805-PowerBoard-Boost-v2-eagle-import CSEP?
 U 1 1 5ECBF732
 P 7850 4250
 AR Path="/5ECBF732" Ref="CSEP?"  Part="1" 
@@ -485,7 +485,7 @@ F 3 "" H 7850 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:R-US_R1206 RFB?
+L PowerBoth-rescue:R-US_R1206-PowerBoard-Boost-v2-eagle-import RFB?
 U 1 1 5ECBF738
 P 8850 5350
 AR Path="/5ECBF738" Ref="RFB?"  Part="1" 
@@ -500,7 +500,7 @@ F 3 "" H 8850 5350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:C-USC1206 CBP?
+L PowerBoth-rescue:C-USC1206-PowerBoard-Boost-v2-eagle-import CBP?
 U 1 1 5ECBF73E
 P 2550 6100
 AR Path="/5ECBF73E" Ref="CBP?"  Part="1" 
@@ -515,7 +515,7 @@ F 3 "" H 2550 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:R-US_R1206 RFILT?
+L PowerBoth-rescue:R-US_R1206-PowerBoard-Boost-v2-eagle-import RFILT?
 U 1 1 5ECBF744
 P 5750 4950
 AR Path="/5ECBF744" Ref="RFILT?"  Part="1" 
@@ -530,7 +530,7 @@ F 3 "" H 5750 4950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:R-US_R0805 RFADJ?
+L PowerBoth-rescue:R-US_R0805-PowerBoard-Boost-v2-eagle-import RFADJ?
 U 1 1 5ECBF74A
 P 4450 5900
 AR Path="/5ECBF74A" Ref="RFADJ?"  Part="1" 
@@ -545,7 +545,7 @@ F 3 "" H 4450 5900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:R-US_R0805 RBP?
+L PowerBoth-rescue:R-US_R0805-PowerBoard-Boost-v2-eagle-import RBP?
 U 1 1 5ECBF750
 P 2550 5300
 AR Path="/5ECBF750" Ref="RBP?"  Part="1" 
@@ -560,7 +560,7 @@ F 3 "" H 2550 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:R-US_R0805 RCOMP?
+L PowerBoth-rescue:R-US_R0805-PowerBoard-Boost-v2-eagle-import RCOMP?
 U 1 1 5ECBF756
 P 3650 5700
 AR Path="/5ECBF756" Ref="RCOMP?"  Part="1" 
@@ -575,7 +575,7 @@ F 3 "" H 3650 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:MOSFET_NSI4778DY M?
+L PowerBoth-rescue:MOSFET_NSI4778DY-PowerBoard-Boost-v2-eagle-import M?
 U 1 1 5ECBF75C
 P 6350 4450
 AR Path="/5ECBF75C" Ref="M?"  Part="1" 
@@ -590,7 +590,7 @@ F 3 "" H 6350 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:SL44-E3_57TDIODE_DO214AB-M D?
+L PowerBoth-rescue:SL44-E3_57TDIODE_DO214AB-M-PowerBoard-Boost-v2-eagle-import D?
 U 1 1 5ECBF762
 P 8450 4050
 AR Path="/5ECBF762" Ref="D?"  Part="1" 
@@ -605,7 +605,7 @@ F 3 "" H 8450 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:CPOL-US153CLV-0505 CIN?
+L PowerBoth-rescue:CPOL-US153CLV-0505-PowerBoard-Boost-v2-eagle-import CIN?
 U 1 1 5ECBF768
 P 1650 5300
 AR Path="/5ECBF768" Ref="CIN?"  Part="1" 
@@ -620,7 +620,7 @@ F 3 "" H 1650 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:CPOL-US153CLV-0505 CIN?
+L PowerBoth-rescue:CPOL-US153CLV-0505-PowerBoard-Boost-v2-eagle-import CIN?
 U 1 1 5ECBF76E
 P 2050 5300
 AR Path="/5ECBF76E" Ref="CIN?"  Part="1" 
@@ -635,7 +635,7 @@ F 3 "" H 2050 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:GND #GND?
+L PowerBoth-rescue:GND-PowerBoard-Boost-v2-eagle-import #GND?
 U 1 1 5ECBF774
 P 1850 7300
 AR Path="/5ECBF774" Ref="#GND?"  Part="1" 
@@ -650,7 +650,7 @@ F 3 "" H 1850 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:GND #GND?
+L PowerBoth-rescue:GND-PowerBoard-Boost-v2-eagle-import #GND?
 U 1 1 5ECBF77A
 P 5000 3800
 AR Path="/5ECBF77A" Ref="#GND?"  Part="1" 
@@ -665,7 +665,7 @@ F 3 "" H 5000 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:GND #GND?
+L PowerBoth-rescue:GND-PowerBoard-Boost-v2-eagle-import #GND?
 U 1 1 5ECBF780
 P 5850 6150
 AR Path="/5ECBF780" Ref="#GND?"  Part="1" 
@@ -680,7 +680,7 @@ F 3 "" H 5850 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:GND #GND?
+L PowerBoth-rescue:GND-PowerBoard-Boost-v2-eagle-import #GND?
 U 1 1 5ECBF786
 P 8250 5950
 AR Path="/5ECBF786" Ref="#GND?"  Part="1" 
@@ -695,7 +695,7 @@ F 3 "" H 8250 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:5V #SUPPLY?
+L PowerBoth-rescue:5V-PowerBoard-Boost-v2-eagle-import #SUPPLY?
 U 1 1 5ECBF78C
 P 10550 3750
 AR Path="/5ECBF78C" Ref="#SUPPLY?"  Part="1" 
@@ -710,7 +710,7 @@ F 3 "" H 10550 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:GND #GND?
+L PowerBoth-rescue:GND-PowerBoard-Boost-v2-eagle-import #GND?
 U 1 1 5ECBF792
 P 8550 3150
 AR Path="/5ECBF792" Ref="#GND?"  Part="1" 
@@ -725,7 +725,7 @@ F 3 "" H 8550 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:TEST_POINTROUND-1MM TP?
+L PowerBoth-rescue:TEST_POINTROUND-1MM-PowerBoard-Boost-v2-eagle-import TP?
 U 1 1 5ECBF798
 P 950 1750
 AR Path="/5ECBF798" Ref="TP?"  Part="1" 
@@ -740,7 +740,7 @@ F 3 "" H 950 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:2X10-2MMSMD J?
+L PowerBoth-rescue:2X10-2MMSMD-PowerBoard-Boost-v2-eagle-import J?
 U 1 1 5ECBF79E
 P 9400 1650
 AR Path="/5ECBF79E" Ref="J?"  Part="1" 
@@ -755,7 +755,7 @@ F 3 "" H 9400 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:5V #SUPPLY?
+L PowerBoth-rescue:5V-PowerBoard-Boost-v2-eagle-import #SUPPLY?
 U 1 1 5ECBF7A4
 P 9700 1150
 AR Path="/5ECBF7A4" Ref="#SUPPLY?"  Part="1" 
@@ -770,7 +770,7 @@ F 3 "" H 9700 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:GND #GND?
+L PowerBoth-rescue:GND-PowerBoard-Boost-v2-eagle-import #GND?
 U 1 1 5ECBF7AA
 P 9700 2050
 AR Path="/5ECBF7AA" Ref="#GND?"  Part="1" 
@@ -785,7 +785,7 @@ F 3 "" H 9700 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-Boost-v2-eagle-import:TEST_POINTROUND-1MM TP2-STAT?
+L PowerBoth-rescue:TEST_POINTROUND-1MM-PowerBoard-Boost-v2-eagle-import TP2-STAT?
 U 1 1 5ECBF7B0
 P 2550 1650
 AR Path="/5ECBF7B0" Ref="TP2-STAT?"  Part="1" 

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# PowerBoth-rescue_2MM-1X5-PowerBoard-eagle-import
+# 2MM-1X5-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_2MM-1X5-PowerBoard-eagle-import J 0 40 Y Y 1 L N
+DEF 2MM-1X5-PowerBoard-eagle-import J 0 40 Y Y 1 L N
 F0 "J" 0 -100 59 H V L BNN
-F1 "PowerBoth-rescue_2MM-1X5-PowerBoard-eagle-import" 0 -200 59 H V L BNN
+F1 "2MM-1X5-PowerBoard-eagle-import" 0 -200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -21,11 +21,11 @@ X P$5 P$5 500 300 100 D 50 0 1 0 B
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_2X10-2MMSMD-PowerBoard-Boost-v2-eagle-import
+# 2X10-2MMSMD-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_2X10-2MMSMD-PowerBoard-Boost-v2-eagle-import J 0 40 Y Y 1 L N
+DEF 2X10-2MMSMD-PowerBoard-Boost-v2-eagle-import J 0 40 Y Y 1 L N
 F0 "J" 1100 100 59 H V L BNN
-F1 "PowerBoth-rescue_2X10-2MMSMD-PowerBoard-Boost-v2-eagle-import" 1100 0 59 H V L BNN
+F1 "2X10-2MMSMD-PowerBoard-Boost-v2-eagle-import" 1100 0 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -59,11 +59,11 @@ X P$9 9 500 300 100 D 50 0 1 0 B
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_5V-PowerBoard-Boost-v2-eagle-import
+# 5V-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_5V-PowerBoard-Boost-v2-eagle-import #SUPPLY 0 40 Y Y 1 L P
+DEF 5V-PowerBoard-Boost-v2-eagle-import #SUPPLY 0 40 Y Y 1 L P
 F0 "#SUPPLY" 0 0 50 H I C CNN
-F1 "PowerBoth-rescue_5V-PowerBoard-Boost-v2-eagle-import" 0 110 59 H V C BNN
+F1 "5V-PowerBoard-Boost-v2-eagle-import" 0 110 59 H V C BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -73,11 +73,11 @@ X 5V 1 0 0 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_B330A-13-PowerBoard-eagle-import
+# B330A-13-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_B330A-13-PowerBoard-eagle-import D 0 40 Y Y 1 L N
+DEF B330A-13-PowerBoard-eagle-import D 0 40 Y Y 1 L N
 F0 "D" 100 206 116 H V L BNN
-F1 "PowerBoth-rescue_B330A-13-PowerBoard-eagle-import" 100 82 116 H V L BNN
+F1 "B330A-13-PowerBoard-eagle-import" 100 82 116 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -94,11 +94,11 @@ X 2 2 0 0 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_B952AS-H-220M=P3-PowerBoard-eagle-import
+# B952AS-H-220M=P3-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_B952AS-H-220M=P3-PowerBoard-eagle-import L 0 40 Y Y 1 L N
+DEF B952AS-H-220M=P3-PowerBoard-eagle-import L 0 40 Y Y 1 L N
 F0 "L" -36 132 116 H V L BNN
-F1 "PowerBoth-rescue_B952AS-H-220M=P3-PowerBoard-eagle-import" -78 -168 116 H V L BNN
+F1 "B952AS-H-220M=P3-PowerBoard-eagle-import" -78 -168 116 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -116,11 +116,11 @@ X 2 2 0 0 100 R 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_C-USC0603-PowerBoard-eagle-import
+# C-USC0603-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_C-USC0603-PowerBoard-eagle-import C 0 40 Y Y 1 L N
+DEF C-USC0603-PowerBoard-eagle-import C 0 40 Y Y 1 L N
 F0 "C" 40 25 59 H V L BNN
-F1 "PowerBoth-rescue_C-USC0603-PowerBoard-eagle-import" 40 -165 59 H V L BNN
+F1 "C-USC0603-PowerBoard-eagle-import" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -133,11 +133,11 @@ X 2 2 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_C-USC0805-PowerBoard-Boost-v2-eagle-import
+# C-USC0805-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_C-USC0805-PowerBoard-Boost-v2-eagle-import C 0 40 Y Y 1 L N
+DEF C-USC0805-PowerBoard-Boost-v2-eagle-import C 0 40 Y Y 1 L N
 F0 "C" 40 25 59 H V L BNN
-F1 "PowerBoth-rescue_C-USC0805-PowerBoard-Boost-v2-eagle-import" 40 -165 59 H V L BNN
+F1 "C-USC0805-PowerBoard-Boost-v2-eagle-import" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -150,11 +150,11 @@ X 2 2 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_C-USC1206-PowerBoard-Boost-v2-eagle-import
+# C-USC1206-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_C-USC1206-PowerBoard-Boost-v2-eagle-import C 0 40 Y Y 1 L N
+DEF C-USC1206-PowerBoard-Boost-v2-eagle-import C 0 40 Y Y 1 L N
 F0 "C" 40 25 59 H V L BNN
-F1 "PowerBoth-rescue_C-USC1206-PowerBoard-Boost-v2-eagle-import" 40 -165 59 H V L BNN
+F1 "C-USC1206-PowerBoard-Boost-v2-eagle-import" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -167,11 +167,11 @@ X 2 2 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_C-USC1210-PowerBoard-eagle-import
+# C-USC1210-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_C-USC1210-PowerBoard-eagle-import C 0 40 Y Y 1 L N
+DEF C-USC1210-PowerBoard-eagle-import C 0 40 Y Y 1 L N
 F0 "C" 40 25 59 H V L BNN
-F1 "PowerBoth-rescue_C-USC1210-PowerBoard-eagle-import" 40 -165 59 H V L BNN
+F1 "C-USC1210-PowerBoard-eagle-import" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -184,11 +184,11 @@ X 2 2 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_CPOL-US153CLV-0505-PowerBoard-Boost-v2-eagle-import
+# CPOL-US153CLV-0505-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_CPOL-US153CLV-0505-PowerBoard-Boost-v2-eagle-import C 0 40 Y Y 1 L N
+DEF CPOL-US153CLV-0505-PowerBoard-Boost-v2-eagle-import C 0 40 Y Y 1 L N
 F0 "C" 40 25 59 H V L BNN
-F1 "PowerBoth-rescue_CPOL-US153CLV-0505-PowerBoard-Boost-v2-eagle-import" 40 -165 59 H V L BNN
+F1 "CPOL-US153CLV-0505-PowerBoard-Boost-v2-eagle-import" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -203,11 +203,11 @@ X - - 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_GND-PowerBoard-Boost-v2-eagle-import
+# GND-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_GND-PowerBoard-Boost-v2-eagle-import #GND 0 40 Y Y 1 L P
+DEF GND-PowerBoard-Boost-v2-eagle-import #GND 0 40 Y Y 1 L P
 F0 "#GND" 0 0 50 H I C CNN
-F1 "PowerBoth-rescue_GND-PowerBoard-Boost-v2-eagle-import" -100 -100 59 H V L BNN
+F1 "GND-PowerBoard-Boost-v2-eagle-import" -100 -100 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -216,11 +216,11 @@ X GND 1 0 100 100 D 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_GND-PowerBoard-eagle-import
+# GND-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_GND-PowerBoard-eagle-import #GND 0 40 Y Y 1 L P
+DEF GND-PowerBoard-eagle-import #GND 0 40 Y Y 1 L P
 F0 "#GND" 0 0 50 H I C CNN
-F1 "PowerBoth-rescue_GND-PowerBoard-eagle-import" -100 -100 59 H V L BNN
+F1 "GND-PowerBoard-eagle-import" -100 -100 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -229,11 +229,11 @@ X GND 1 0 100 100 D 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_INDUCTOR_DUAL-PowerBoard-Boost-v2-eagle-import
+# INDUCTOR_DUAL-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_INDUCTOR_DUAL-PowerBoard-Boost-v2-eagle-import L 0 40 Y Y 1 L N
+DEF INDUCTOR_DUAL-PowerBoard-Boost-v2-eagle-import L 0 40 Y Y 1 L N
 F0 "L" -150 200 59 H V L BNN
-F1 "PowerBoth-rescue_INDUCTOR_DUAL-PowerBoard-Boost-v2-eagle-import" -150 -310 59 H V L BNN
+F1 "INDUCTOR_DUAL-PowerBoard-Boost-v2-eagle-import" -150 -310 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -273,11 +273,11 @@ X 4 4 300 -200 100 L 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_IRF7205-PowerBoard-eagle-import
+# IRF7205-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_IRF7205-PowerBoard-eagle-import M 0 40 Y Y 1 L N
+DEF IRF7205-PowerBoard-eagle-import M 0 40 Y Y 1 L N
 F0 "M" -350 -150 59 H V L TNN
-F1 "PowerBoth-rescue_IRF7205-PowerBoard-eagle-import" 160 180 59 V V L TNN
+F1 "IRF7205-PowerBoard-eagle-import" 160 180 59 V V L TNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -317,11 +317,11 @@ X D 8 0 200 100 D 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_LM3488QMM_NOPBDGK8-M-PowerBoard-Boost-v2-eagle-import
+# LM3488QMM_NOPBDGK8-M-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_LM3488QMM_NOPBDGK8-M-PowerBoard-Boost-v2-eagle-import U 0 40 Y Y 1 L N
+DEF LM3488QMM_NOPBDGK8-M-PowerBoard-Boost-v2-eagle-import U 0 40 Y Y 1 L N
 F0 "U" 1304 139 69 H V L BNN
-F1 "PowerBoth-rescue_LM3488QMM_NOPBDGK8-M-PowerBoard-Boost-v2-eagle-import" 1999 149 69 H V L BNN
+F1 "LM3488QMM_NOPBDGK8-M-PowerBoard-Boost-v2-eagle-import" 1999 149 69 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -340,11 +340,11 @@ X VIN 8 1100 0 200 R 50 50 1 0 I
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_LTC4002ES8-4.2PBFSO-8_S-M-PowerBoard-eagle-import
+# LTC4002ES8-4.2PBFSO-8_S-M-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_LTC4002ES8-4.2PBFSO-8_S-M-PowerBoard-eagle-import U 0 40 Y Y 1 L N
+DEF LTC4002ES8-4.2PBFSO-8_S-M-PowerBoard-eagle-import U 0 40 Y Y 1 L N
 F0 "U" 1014 359 69 H V L BNN
-F1 "PowerBoth-rescue_LTC4002ES8-4.2PBFSO-8_S-M-PowerBoard-eagle-import" 989 259 69 H V L BNN
+F1 "LTC4002ES8-4.2PBFSO-8_S-M-PowerBoard-eagle-import" 989 259 69 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -363,11 +363,11 @@ X NTC 8 2300 0 200 L 50 50 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_MOSFET_NSI4778DY-PowerBoard-Boost-v2-eagle-import
+# MOSFET_NSI4778DY-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_MOSFET_NSI4778DY-PowerBoard-Boost-v2-eagle-import M 0 40 Y Y 1 L N
+DEF MOSFET_NSI4778DY-PowerBoard-Boost-v2-eagle-import M 0 40 Y Y 1 L N
 F0 "M" 200 100 59 H V L BNN
-F1 "PowerBoth-rescue_MOSFET_NSI4778DY-PowerBoard-Boost-v2-eagle-import" 200 0 59 H V L BNN
+F1 "MOSFET_NSI4778DY-PowerBoard-Boost-v2-eagle-import" 200 0 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -416,11 +416,11 @@ X D 8 0 200 100 D 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_PJ-079AH-PowerBoard-eagle-import
+# PJ-079AH-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_PJ-079AH-PowerBoard-eagle-import J 0 40 Y Y 1 L N
+DEF PJ-079AH-PowerBoard-eagle-import J 0 40 Y Y 1 L N
 F0 "J" -303 302 59 H V L BNN
-F1 "PowerBoth-rescue_PJ-079AH-PowerBoard-eagle-import" -303 -402 59 H V L BNN
+F1 "PJ-079AH-PowerBoard-eagle-import" -303 -402 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -457,11 +457,11 @@ X SHIELD S2 500 -200 200 L 0 50 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_R-US_R0805-PowerBoard-Boost-v2-eagle-import
+# R-US_R0805-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_R-US_R0805-PowerBoard-Boost-v2-eagle-import R 0 40 Y Y 1 L N
+DEF R-US_R0805-PowerBoard-Boost-v2-eagle-import R 0 40 Y Y 1 L N
 F0 "R" -150 59 59 H V L BNN
-F1 "PowerBoth-rescue_R-US_R0805-PowerBoard-Boost-v2-eagle-import" -150 -130 59 H V L BNN
+F1 "R-US_R0805-PowerBoard-Boost-v2-eagle-import" -150 -130 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -479,11 +479,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_R-US_R1206-PowerBoard-Boost-v2-eagle-import
+# R-US_R1206-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_R-US_R1206-PowerBoard-Boost-v2-eagle-import R 0 40 Y Y 1 L N
+DEF R-US_R1206-PowerBoard-Boost-v2-eagle-import R 0 40 Y Y 1 L N
 F0 "R" -150 59 59 H V L BNN
-F1 "PowerBoth-rescue_R-US_R1206-PowerBoard-Boost-v2-eagle-import" -150 -130 59 H V L BNN
+F1 "R-US_R1206-PowerBoard-Boost-v2-eagle-import" -150 -130 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -501,11 +501,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_R-US_R1206-PowerBoard-eagle-import
+# R-US_R1206-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_R-US_R1206-PowerBoard-eagle-import R 0 40 Y Y 1 L N
+DEF R-US_R1206-PowerBoard-eagle-import R 0 40 Y Y 1 L N
 F0 "R" -150 59 59 H V L BNN
-F1 "PowerBoth-rescue_R-US_R1206-PowerBoard-eagle-import" -150 -130 59 H V L BNN
+F1 "R-US_R1206-PowerBoard-eagle-import" -150 -130 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -523,11 +523,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_RESISTOR1206-PowerBoard-eagle-import
+# RESISTOR1206-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_RESISTOR1206-PowerBoard-eagle-import R 0 40 Y Y 1 L N
+DEF RESISTOR1206-PowerBoard-eagle-import R 0 40 Y Y 1 L N
 F0 "R" -150 59 59 H V L BNN
-F1 "PowerBoth-rescue_RESISTOR1206-PowerBoard-eagle-import" -150 -130 59 H V L BNN
+F1 "RESISTOR1206-PowerBoard-eagle-import" -150 -130 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -545,11 +545,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_SL44-E3_57TDIODE_DO214AB-M-PowerBoard-Boost-v2-eagle-import
+# SL44-E3_57TDIODE_DO214AB-M-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_SL44-E3_57TDIODE_DO214AB-M-PowerBoard-Boost-v2-eagle-import CR 0 40 Y Y 1 L N
+DEF SL44-E3_57TDIODE_DO214AB-M-PowerBoard-Boost-v2-eagle-import CR 0 40 Y Y 1 L N
 F0 "CR" 100 206 116 H V L BNN
-F1 "PowerBoth-rescue_SL44-E3_57TDIODE_DO214AB-M-PowerBoard-Boost-v2-eagle-import" 100 82 116 H V L BNN
+F1 "SL44-E3_57TDIODE_DO214AB-M-PowerBoard-Boost-v2-eagle-import" 100 82 116 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -566,11 +566,11 @@ X 2 2 0 0 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_TEST_POINTROUND-1MM-PowerBoard-Boost-v2-eagle-import
+# TEST_POINTROUND-1MM-PowerBoard-Boost-v2-eagle-import
 #
-DEF PowerBoth-rescue_TEST_POINTROUND-1MM-PowerBoard-Boost-v2-eagle-import TP 0 40 Y Y 1 L N
+DEF TEST_POINTROUND-1MM-PowerBoard-Boost-v2-eagle-import TP 0 40 Y Y 1 L N
 F0 "TP" -100 300 42 H V L BNN
-F1 "PowerBoth-rescue_TEST_POINTROUND-1MM-PowerBoard-Boost-v2-eagle-import" -100 0 42 V V L BNN
+F1 "TEST_POINTROUND-1MM-PowerBoard-Boost-v2-eagle-import" -100 0 42 V V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -579,29 +579,16 @@ X 1 1 0 0 200 U 0 0 1 0 B
 ENDDRAW
 ENDDEF
 #
-# PowerBoth-rescue_TEST_POINTROUND-1MM-PowerBoard-eagle-import
+# TEST_POINTROUND-1MM-PowerBoard-eagle-import
 #
-DEF PowerBoth-rescue_TEST_POINTROUND-1MM-PowerBoard-eagle-import TP 0 40 Y Y 1 L N
+DEF TEST_POINTROUND-1MM-PowerBoard-eagle-import TP 0 40 Y Y 1 L N
 F0 "TP" -100 300 42 H V L BNN
-F1 "PowerBoth-rescue_TEST_POINTROUND-1MM-PowerBoard-eagle-import" -100 0 42 V V L BNN
+F1 "TEST_POINTROUND-1MM-PowerBoard-eagle-import" -100 0 42 V V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 200 44 1 0 10 N
 X 1 1 0 0 200 U 0 0 1 0 B
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

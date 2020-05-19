@@ -202,7 +202,7 @@ Wire Wire Line
 	8800 4500 9600 4500
 Connection ~ 8800 4500
 $Comp
-L PowerBoard-eagle-import:2MM-1X5 J202
+L PowerBoth-rescue:2MM-1X5-PowerBoard-eagle-import J202
 U 1 1 449C7C68
 P 5900 5200
 F 0 "J202" H 5900 5100 59  0000 L BNN
@@ -213,7 +213,7 @@ F 3 "" H 5900 5200 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:LTC4002ES8-4.2PBFSO-8_S-M U201
+L PowerBoth-rescue:LTC4002ES8-4.2PBFSO-8_S-M-PowerBoard-eagle-import U201
 U 1 1 94FABF20
 P 3900 3900
 F 0 "U201" H 4914 4259 69  0000 L BNN
@@ -224,7 +224,7 @@ F 3 "" H 3900 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:IRF7205 M201
+L PowerBoth-rescue:IRF7205-PowerBoard-eagle-import M201
 U 1 1 63C736F8
 P 3600 4200
 F 0 "M201" H 3250 4050 59  0000 L TNN
@@ -236,7 +236,7 @@ F 4 "C55419" H 3600 4200 50  0001 C CNN "LCSC Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:B952AS-H-220M=P3 L201
+L PowerBoth-rescue:B952AS-H-220M=P3-PowerBoard-eagle-import L201
 U 1 1 737D6DDD
 P 3600 5000
 F 0 "L201" H 3564 5132 116 0000 L BNN
@@ -247,7 +247,7 @@ F 3 "" H 3600 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:B330A-13 D201
+L PowerBoth-rescue:B330A-13-PowerBoard-eagle-import D201
 U 1 1 C78C3FBD
 P 2500 3400
 F 0 "D201" H 2600 3606 116 0000 L BNN
@@ -258,7 +258,7 @@ F 3 "" H 2500 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:B330A-13 D202
+L PowerBoth-rescue:B330A-13-PowerBoard-eagle-import D202
 U 1 1 0CADE672
 P 3800 4900
 F 0 "D202" H 3900 5106 116 0000 L BNN
@@ -269,7 +269,7 @@ F 3 "" H 3800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:GND #GND0202
+L PowerBoth-rescue:GND-PowerBoard-eagle-import #GND0202
 U 1 1 8DA2BB24
 P 4000 5200
 F 0 "#GND0202" H 4000 5200 50  0001 C CNN
@@ -280,7 +280,7 @@ F 3 "" H 4000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:R-US_R1206 RSENSE201
+L PowerBoth-rescue:R-US_R1206-PowerBoard-eagle-import RSENSE201
 U 1 1 6ED65E17
 P 6800 4100
 F 0 "RSENSE201" H 6650 4159 59  0000 L BNN
@@ -291,7 +291,7 @@ F 3 "" H 6800 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:GND #GND0204
+L PowerBoth-rescue:GND-PowerBoard-eagle-import #GND0204
 U 1 1 4877C9E2
 P 6500 5400
 F 0 "#GND0204" H 6500 5400 50  0001 C CNN
@@ -302,7 +302,7 @@ F 3 "" H 6500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:C-USC1210 C202
+L PowerBoth-rescue:C-USC1210-PowerBoard-eagle-import C202
 U 1 1 E7D47EA7
 P 3300 3700
 F 0 "C202" H 3340 3725 59  0000 L BNN
@@ -313,7 +313,7 @@ F 3 "" H 3300 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:C-USC1210 C203
+L PowerBoth-rescue:C-USC1210-PowerBoard-eagle-import C203
 U 1 1 483159C7
 P 6800 5000
 F 0 "C203" H 6840 5025 59  0000 L BNN
@@ -324,7 +324,7 @@ F 3 "" H 6800 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:C-USC1210 C201
+L PowerBoth-rescue:C-USC1210-PowerBoard-eagle-import C201
 U 1 1 88676885
 P 3000 3700
 F 0 "C201" H 3040 3725 59  0000 L BNN
@@ -336,7 +336,7 @@ F 4 "1" H 3000 3700 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:C-USC0603 CC201
+L PowerBoth-rescue:C-USC0603-PowerBoard-eagle-import CC201
 U 1 1 7170E37A
 P 4100 3100
 F 0 "CC201" H 4140 3125 59  0000 L BNN
@@ -347,7 +347,7 @@ F 3 "" H 4100 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:GND #GND0201
+L PowerBoth-rescue:GND-PowerBoard-eagle-import #GND0201
 U 1 1 21137572
 P 3000 4300
 F 0 "#GND0201" H 3000 4300 50  0001 C CNN
@@ -358,7 +358,7 @@ F 3 "" H 3000 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:GND #GND0203
+L PowerBoth-rescue:GND-PowerBoard-eagle-import #GND0203
 U 1 1 12C122FD
 P 4900 3300
 F 0 "#GND0203" H 4900 3300 50  0001 C CNN
@@ -369,7 +369,7 @@ F 3 "" H 4900 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:R-US_R1206 RC201
+L PowerBoth-rescue:R-US_R1206-PowerBoard-eagle-import RC201
 U 1 1 F7D68A95
 P 4600 3100
 F 0 "RC201" H 4450 3159 59  0000 L BNN
@@ -380,7 +380,7 @@ F 3 "" H 4600 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:R-US_R1206 R201
+L PowerBoth-rescue:R-US_R1206-PowerBoard-eagle-import R201
 U 1 1 B6BC5140
 P 5300 4700
 F 0 "R201" H 5150 4759 59  0000 L BNN
@@ -391,7 +391,7 @@ F 3 "" H 5300 4700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:RESISTOR1206 R202
+L PowerBoth-rescue:RESISTOR1206-PowerBoard-eagle-import R202
 U 1 1 A3C89E4B
 P 8400 3600
 F 0 "R202" H 8250 3659 59  0000 L BNN
@@ -402,7 +402,7 @@ F 3 "" H 8400 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:GND #GND0205
+L PowerBoth-rescue:GND-PowerBoard-eagle-import #GND0205
 U 1 1 FF2A2D77
 P 8800 3900
 F 0 "#GND0205" H 8800 3900 50  0001 C CNN
@@ -413,7 +413,7 @@ F 3 "" H 8800 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:IRF7205 Q201
+L PowerBoth-rescue:IRF7205-PowerBoard-eagle-import Q201
 U 1 1 E6D570CA
 P 8100 4300
 F 0 "Q201" H 7750 4150 59  0000 L TNN
@@ -425,7 +425,7 @@ F 4 "C55419" H 8100 4300 50  0001 C CNN "LCSC Part Number"
 	0    -1   1    0   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:PJ-079AH J201
+L PowerBoth-rescue:PJ-079AH-PowerBoard-eagle-import J201
 U 1 1 C3E76336
 P 1800 3600
 F 0 "J201" H 1497 3902 59  0000 L BNN
@@ -436,7 +436,7 @@ F 3 "" H 1800 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoard-eagle-import:B330A-13 D203
+L PowerBoth-rescue:B330A-13-PowerBoard-eagle-import D203
 U 1 1 93886C31
 P 8400 4100
 F 0 "D203" H 8500 4306 116 0000 L BNN
@@ -447,7 +447,7 @@ F 3 "" H 8400 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PowerBoard-eagle-import:TEST_POINTROUND-1MM TP201
+L PowerBoth-rescue:TEST_POINTROUND-1MM-PowerBoard-eagle-import TP201
 U 1 1 0B1FCAED
 P 5000 4900
 F 0 "TP201" H 4900 5200 42  0000 L BNN
@@ -468,7 +468,7 @@ Wire Notes Line
 Text Notes 7850 5450 0    47   ~ 0
 Load sharing circuit.\nBased on Microchip\nApplication Note AN1149.
 $Comp
-L PowerBoard-eagle-import:TEST_POINTROUND-1MM TP202
+L PowerBoth-rescue:TEST_POINTROUND-1MM-PowerBoard-eagle-import TP202
 U 1 1 5E932987
 P 7350 3400
 F 0 "TP202" H 7250 3700 42  0000 L BNN
