@@ -155,4 +155,5 @@
   (lib (name SparkFun-IC-Microcontroller)(type Legacy)(uri C:/Users/mquezada/Documents/KiCAD/library/SparkFun-KiCad-Libraries/Libraries/SparkFun-IC-Microcontroller.lib)(options "")(descr ""))
   (lib (name SparkFun-PowerSymbols)(type Legacy)(uri C:/Users/mquezada/Documents/KiCAD/library/SparkFun-KiCad-Libraries/Libraries/SparkFun-PowerSymbols.lib)(options "")(descr ""))
   (lib (name MarcoK)(type Legacy)(uri C:/Users/mquezada/Documents/KiCAD/library/MarcoK.pretty/MarcoK.lib)(options "")(descr ""))
+  (lib (name PiTFT-eagle-import)(type Legacy)(uri C:/Users/mquezada/Documents/KiCAD/PiTFT/PiTFT-eagle-import.lib)(options "")(descr ""))
 )

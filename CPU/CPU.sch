@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 11693 8394
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -21,6 +21,8 @@ F 0 "Pi101" H 3150 7600 50  0000 L BNN
 F 1 "RPI-ZERO" H 3150 7525 50  0000 L BNN
 F 2 "CPU:RASPBERRYPI_Zero-No_Mounting_Holes_SMD_Flat" H 3950 6200 50  0001 C CNN
 F 3 "" H 3950 6200 50  0001 C CNN
+F 4 "609-2231-ND" H 3950 6200 50  0001 C CNN "DigiKey"
+F 5 "CR101-V3" H 3950 6200 50  0001 C CNN "Customer Reference"
 	1    3950 6200
 	1    0    0    -1  
 $EndComp
@@ -33,14 +35,15 @@ F 1 "Conn_02x10_Odd_Even" V 1945 2180 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x10_P2.00mm_Vertical_SMD" H 1850 1700 50  0001 C CNN
 F 3 "~" H 1850 1700 50  0001 C CNN
 F 4 "C135211" H 1850 1700 50  0001 C CNN "LCSC Part Number"
-F 5 "NRPN102MAMS-RC,NPPN102FFKS-RC" H 1850 1700 50  0001 C CNN "DigiKey"
+F 5 "NRPN102MAMS-RC" H 1850 1700 50  0001 C CNN "DigiKey"
+F 6 "CR101-V3" H 1850 1700 50  0001 C CNN "Customer Reference"
 	1    1850 1700
 	0    1    1    0   
 $EndComp
 Text Label 4950 5300 0    39   ~ 0
-UARTA
+PiTX
 Text Label 4950 5400 0    39   ~ 0
-UARTB
+PiRX
 Wire Wire Line
 	1650 1500 1650 1400
 Wire Wire Line
@@ -220,114 +223,6 @@ Text Label 4950 6000 0    39   ~ 0
 TFT_DC
 Text Label 4950 5800 0    39   ~ 0
 RT_INIT
-$Comp
-L Connector_Generic_MountingPin:Conn_02x14_Odd_Even_MountingPin J102
-U 1 1 5EA0CFAA
-P 3800 3500
-F 0 "J102" H 3850 4317 50  0000 C CNN
-F 1 "Conn_02x14_Odd_Even_MountingPin" H 3850 4226 50  0000 C CNN
-F 2 "CPU:2X14_SMT_MALE-2" H 3800 3500 50  0001 C CNN
-F 3 "~" H 3800 3500 50  0001 C CNN
-	1    3800 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0103
-U 1 1 5EB169CB
-P 3500 2700
-F 0 "#PWR0103" H 3500 2550 50  0001 C CNN
-F 1 "+3V3" H 3515 2873 50  0000 C CNN
-F 2 "" H 3500 2700 50  0001 C CNN
-F 3 "" H 3500 2700 50  0001 C CNN
-	1    3500 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 3700 3400 2900
-Wire Wire Line
-	3600 2900 3500 2900
-Wire Wire Line
-	3500 2900 3500 2700
-Wire Wire Line
-	3400 3700 3600 3700
-Wire Wire Line
-	3500 2900 3400 2900
-Connection ~ 3500 2900
-Text Label 3600 3800 2    39   ~ 0
-MOSI
-Text Label 3600 3900 2    39   ~ 0
-MISO
-Text Label 3600 4000 2    39   ~ 0
-SCLK
-Text Label 3600 4200 2    39   ~ 0
-EEDATA
-Text Label 4100 4200 0    39   ~ 0
-EECLK
-Text Label 4100 4100 0    39   ~ 0
-RT_CS
-Text Label 4100 4000 0    39   ~ 0
-TFT_CS
-Text Label 4100 3900 0    39   ~ 0
-TFT_DC
-Text Label 4100 3700 0    39   ~ 0
-RT_INIT
-Text Label 4100 3300 0    39   ~ 0
-UARTB
-Text Label 4100 3200 0    39   ~ 0
-UARTA
-Text Label 4100 3000 0    39   ~ 0
-Pi5V
-Text Label 4100 2900 0    39   ~ 0
-Pi5V
-Wire Wire Line
-	4100 2900 4200 2900
-Wire Wire Line
-	4100 3000 4200 3000
-Wire Wire Line
-	4200 3000 4200 2900
-$Comp
-L CPU-eagle-import:GND #GND0104
-U 1 1 5EB810B6
-P 4400 4000
-F 0 "#GND0104" H 4400 4000 50  0001 C CNN
-F 1 "GND" H 4400 4000 59  0000 C TNN
-F 2 "" H 4400 4000 50  0001 C CNN
-F 3 "" H 4400 4000 50  0001 C CNN
-	1    4400 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 3100 4400 3100
-Wire Wire Line
-	4400 3100 4400 3500
-Wire Wire Line
-	4100 3800 4400 3800
-Connection ~ 4400 3800
-Wire Wire Line
-	4400 3800 4400 3900
-Wire Wire Line
-	4100 3500 4400 3500
-Connection ~ 4400 3500
-Wire Wire Line
-	4400 3500 4400 3800
-$Comp
-L CPU-eagle-import:GND #GND0103
-U 1 1 5EBAA119
-P 3300 4200
-F 0 "#GND0103" H 3300 4200 50  0001 C CNN
-F 1 "GND" H 3300 4200 59  0000 C TNN
-F 2 "" H 3300 4200 50  0001 C CNN
-F 3 "" H 3300 4200 50  0001 C CNN
-	1    3300 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 4100 3300 4100
-Wire Wire Line
-	3600 3300 3300 3300
-Wire Wire Line
-	3300 3300 3300 4100
-Connection ~ 3300 4100
 NoConn ~ 1450 1500
 NoConn ~ 1550 1500
 $Comp
@@ -340,6 +235,7 @@ F 2 "Marco:SWITCH_PCM12SMTR_SPDT" H 5150 4700 50  0001 C CNN
 F 3 "~" H 5150 4700 50  0001 C CNN
 F 4 "C221841" H 5150 4700 50  0001 C CNN "LCSC Part Number"
 F 5 "PCM12SMTR" H 5150 4700 50  0001 C CNN "DigiKey"
+F 6 "CR101-V3" H 5150 4700 50  0001 C CNN "Customer Reference"
 	1    5150 4700
 	0    -1   -1   0   
 $EndComp
@@ -348,7 +244,6 @@ Wire Wire Line
 Connection ~ 5150 5000
 Text Label 5150 5000 0    39   ~ 0
 Pi5V
-NoConn ~ 3850 4400
 NoConn ~ 5050 4500
 NoConn ~ 3050 6400
 NoConn ~ 3050 6500
@@ -395,6 +290,7 @@ F 2 "CPU:SOT23" H 7850 3100 50  0001 C CNN
 F 3 "" H 7850 3100 50  0001 C CNN
 F 4 "C67273" H 7850 3100 50  0001 C CNN "LCSC Part Number"
 F 5 "IRLML0040TRPBF" H 7850 3100 50  0001 C CNN "DigiKey"
+F 6 "CR101-V3" H 7850 3100 50  0001 C CNN "Customer Reference"
 	1    7850 3100
 	0    1    1    0   
 $EndComp
@@ -410,6 +306,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 2800 50  0
 F 3 "" H 7600 2800 50  0001 C CNN
 F 4 " C17414" H 7600 2800 50  0001 C CNN "LCSC Part Number"
 F 5 "RC0805FR-0710KL" H 7600 2800 50  0001 C CNN "DigiKey"
+F 6 "CR101-V3" H 7600 2800 50  0001 C CNN "Customer Reference"
 	1    7600 2800
 	0    -1   -1   0   
 $EndComp
@@ -425,6 +322,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8100 2800 50  0
 F 3 "" H 8100 2800 50  0001 C CNN
 F 4 " C17414" H 8100 2800 50  0001 C CNN "LCSC Part Number"
 F 5 "RC0805FR-0710KL" H 8100 2800 50  0001 C CNN "DigiKey"
+F 6 "CR101-V3" H 8100 2800 50  0001 C CNN "Customer Reference"
 	1    8100 2800
 	0    -1   -1   0   
 $EndComp
@@ -491,6 +389,7 @@ F 2 "CPU:SOT23" H 7850 1950 50  0001 C CNN
 F 3 "" H 7850 1950 50  0001 C CNN
 F 4 "C67273" H 7850 1950 50  0001 C CNN "LCSC Part Number"
 F 5 "IRLML0040TRPBF" H 7850 1950 50  0001 C CNN "DigiKey"
+F 6 "CR101-V3" H 7850 1950 50  0001 C CNN "Customer Reference"
 	1    7850 1950
 	0    1    1    0   
 $EndComp
@@ -506,6 +405,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 1650 50  0
 F 3 "" H 7600 1650 50  0001 C CNN
 F 4 " C17414" H 7600 1650 50  0001 C CNN "LCSC Part Number"
 F 5 "RC0805FR-0710KL" H 7600 1650 50  0001 C CNN "DigiKey"
+F 6 "CR101-V3" H 7600 1650 50  0001 C CNN "Customer Reference"
 	1    7600 1650
 	0    -1   -1   0   
 $EndComp
@@ -521,6 +421,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8100 1650 50  0
 F 3 "" H 8100 1650 50  0001 C CNN
 F 4 " C17414" H 8100 1650 50  0001 C CNN "LCSC Part Number"
 F 5 "RC0805FR-0710KL" H 8100 1650 50  0001 C CNN "DigiKey"
+F 6 "CR101-V3" H 8100 1650 50  0001 C CNN "Customer Reference"
 	1    8100 1650
 	0    -1   -1   0   
 $EndComp
@@ -602,20 +503,6 @@ F 3 "~" H 2450 6900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 6900 2450 6900
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 5EB569E1
-P 3300 2900
-F 0 "#FLG0103" H 3300 2975 50  0001 C CNN
-F 1 "PWR_FLAG" V 3300 3027 50  0000 L CNN
-F 2 "" H 3300 2900 50  0001 C CNN
-F 3 "~" H 3300 2900 50  0001 C CNN
-	1    3300 2900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3400 2900 3300 2900
-Connection ~ 3400 2900
 Wire Wire Line
 	1450 2000 1450 2400
 Text Label 1350 2000 3    39   ~ 0
@@ -663,9 +550,6 @@ F7 "SDA5" I L 3950 2150 39
 $EndSheet
 Text Notes 3200 7250 0    20   ~ 0
 I2C slave setup:\nhttps://raspberrypi.stackexchange.com/questions/76109/raspberry-as-an-i2c-slave
-NoConn ~ 4100 3400
-NoConn ~ 3600 3100
-NoConn ~ 3600 3000
 NoConn ~ 3050 5100
 NoConn ~ 3050 5200
 $Comp
@@ -695,6 +579,7 @@ F 0 "TP101" H 5008 3418 50  0000 L CNN
 F 1 "PI_RESET" H 5008 3327 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5150 3300 50  0001 C CNN
 F 3 "~" H 5150 3300 50  0001 C CNN
+F 4 "CR101-V3" H 4950 3300 50  0001 C CNN "Customer Reference"
 	1    4950 3300
 	1    0    0    -1  
 $EndComp
@@ -705,25 +590,7 @@ PI_RESET_TOGGLE
 NoConn ~ 3050 5700
 NoConn ~ 3050 5600
 NoConn ~ 3050 5500
-NoConn ~ 4950 5700
-NoConn ~ 4100 3600
-NoConn ~ 3600 3600
-NoConn ~ 3600 3500
-NoConn ~ 3600 3400
-NoConn ~ 3600 3200
 NoConn ~ 3050 5300
-Text Label 4100 3600 0    39   ~ 0
-Pi16
-Text Label 4100 3400 0    39   ~ 0
-Pi12
-Text Label 3600 3200 2    39   ~ 0
-Pi7
-Text Label 3600 3600 2    39   ~ 0
-Pi15
-Text Label 3600 3500 2    39   ~ 0
-Pi13
-Text Label 3600 3400 2    39   ~ 0
-Pi11
 $Comp
 L power:+3V3 #PWR0102
 U 1 1 5E97A3AA
@@ -742,4 +609,73 @@ Text Label 3950 2100 2    39   ~ 0
 SCL5
 Text Label 3950 2150 2    39   ~ 0
 SDA5
+$Sheet
+S 5550 1800 850  1050
+U 5EC4945A
+F0 "Display" 39
+F1 "Display.sch" 39
+F2 "MOSI" I L 5550 1900 39 
+F3 "MISO" I L 5550 2000 39 
+F4 "SCLK" I L 5550 2100 39 
+F5 "EEDATA" I L 5550 2200 39 
+F6 "EECLK" I L 5550 2300 39 
+F7 "RT_CS" I L 5550 2400 39 
+F8 "TFT_CS" I L 5550 2500 39 
+F9 "TFT_DC" I L 5550 2600 39 
+F10 "RT_INIT" I L 5550 2700 39 
+F11 "GPIO23" I L 5550 2800 39 
+F12 "Pi5V" I R 6400 2300 39 
+$EndSheet
+Text Label 5550 2700 2    39   ~ 0
+RT_INIT
+Text Label 5550 2600 2    39   ~ 0
+TFT_DC
+Text Label 5550 2500 2    39   ~ 0
+TFT_CS
+Text Label 5550 2400 2    39   ~ 0
+RT_CS
+Text Label 5550 2300 2    39   ~ 0
+EECLK
+Text Label 5550 2200 2    39   ~ 0
+EEDATA
+Text Label 5550 2100 2    39   ~ 0
+SCLK
+Text Label 5550 2000 2    39   ~ 0
+MISO
+Text Label 5550 1900 2    39   ~ 0
+MOSI
+Text Label 5550 2800 2    39   ~ 0
+LCD_BACK_LIGHT
+Text Label 4950 5700 0    39   ~ 0
+LCD_BACK_LIGHT
+$Comp
+L Connector:TestPoint TP102
+U 1 1 5EE03ABB
+P 5550 5300
+F 0 "TP102" H 5500 5550 50  0000 L CNN
+F 1 "PiTX" V 5500 5250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5300 50  0001 C CNN
+F 3 "~" H 5750 5300 50  0001 C CNN
+F 4 "CR101-V3" H 5550 5300 50  0001 C CNN "Customer Reference"
+	1    5550 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 5300 5550 5300
+$Comp
+L Connector:TestPoint TP103
+U 1 1 5EE07231
+P 5550 5400
+F 0 "TP103" H 5500 5650 50  0000 L CNN
+F 1 "PiRX" V 5600 5400 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5400 50  0001 C CNN
+F 3 "~" H 5750 5400 50  0001 C CNN
+F 4 "CR101-V3" H 5550 5400 50  0001 C CNN "Customer Reference"
+	1    5550 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 5400 5550 5400
+Text Label 6400 2300 0    39   ~ 0
+Pi5V
 $EndSCHEMATC

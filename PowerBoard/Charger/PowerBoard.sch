@@ -103,8 +103,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 4000 3000 4000
 Connection ~ 3000 4000
-Text Label 3000 3900 0    10   ~ 0
-GND
 Wire Wire Line
 	4800 3100 4900 3100
 Wire Wire Line
