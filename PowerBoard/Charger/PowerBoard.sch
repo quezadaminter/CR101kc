@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -20,24 +20,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 3400 2300 3400
 Connection ~ 2400 3400
-Wire Wire Line
-	8100 4000 8100 3600
-Wire Wire Line
-	8100 3600 8100 3500
-Wire Wire Line
-	8100 4000 8200 4000
-Wire Wire Line
-	8100 3600 8200 3600
-Wire Wire Line
-	8200 4100 8200 4000
-Wire Wire Line
-	8400 4100 8400 4000
-Wire Wire Line
-	8400 4000 8200 4000
-Connection ~ 8100 3600
-Connection ~ 8200 4000
-Text Label 8100 4000 0    10   ~ 0
-VCC
 Wire Wire Line
 	2900 3400 3000 3400
 Wire Wire Line
@@ -108,12 +90,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 3100 4900 3200
 Wire Wire Line
-	8600 3600 8800 3600
-Wire Wire Line
-	8800 3600 8800 3800
-Text Label 8600 3600 0    10   ~ 0
-GND
-Wire Wire Line
 	3600 4400 3600 4500
 Wire Wire Line
 	3600 4500 3800 4500
@@ -179,26 +155,10 @@ Wire Wire Line
 	6800 4900 6800 4800
 Wire Wire Line
 	7400 4500 6800 4500
-Wire Wire Line
-	7900 4500 7900 4300
-Wire Wire Line
-	7900 4500 7400 4500
 Connection ~ 6800 4300
 Connection ~ 6800 4700
 Connection ~ 6800 4800
 Connection ~ 6800 4500
-Connection ~ 7400 4500
-Wire Wire Line
-	8300 4300 8400 4300
-Wire Wire Line
-	8400 4300 8400 4500
-Wire Wire Line
-	8400 4500 8800 4500
-Wire Wire Line
-	8800 4100 8800 4500
-Wire Wire Line
-	8800 4500 9600 4500
-Connection ~ 8800 4500
 $Comp
 L PowerBoth-rescue:2MM-1X5-PowerBoard-eagle-import J202
 U 1 1 449C7C68
@@ -235,7 +195,7 @@ F 4 "C55419" H 3600 4200 50  0001 C CNN "LCSC Part Number"
 $EndComp
 $Comp
 L PowerBoth-rescue:B952AS-H-220M=P3-PowerBoard-eagle-import L201
-U 1 1 737D6DDD
+U 1 1 5ED47BE7
 P 3600 5000
 F 0 "L201" H 3564 5132 116 0000 L BNN
 F 1 "6.8uH" H 3522 4832 116 0000 L BNN
@@ -301,7 +261,7 @@ F 3 "" H 6500 5400 50  0001 C CNN
 $EndComp
 $Comp
 L PowerBoth-rescue:C-USC1210-PowerBoard-eagle-import C202
-U 1 1 E7D47EA7
+U 1 1 5ED47BE6
 P 3300 3700
 F 0 "C202" H 3340 3725 59  0000 L BNN
 F 1 "10uF" H 3340 3535 59  0000 L BNN
@@ -389,40 +349,6 @@ F 3 "" H 5300 4700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PowerBoth-rescue:RESISTOR1206-PowerBoard-eagle-import R202
-U 1 1 A3C89E4B
-P 8400 3600
-F 0 "R202" H 8250 3659 59  0000 L BNN
-F 1 "56K" H 8250 3470 59  0000 L BNN
-F 2 "PowerBoard:1206" H 8400 3600 50  0001 C CNN
-F 3 "" H 8400 3600 50  0001 C CNN
-	1    8400 3600
-	-1   0    0    1   
-$EndComp
-$Comp
-L PowerBoth-rescue:GND-PowerBoard-eagle-import #GND0205
-U 1 1 FF2A2D77
-P 8800 3900
-F 0 "#GND0205" H 8800 3900 50  0001 C CNN
-F 1 "GND" H 8700 3800 59  0000 L BNN
-F 2 "" H 8800 3900 50  0001 C CNN
-F 3 "" H 8800 3900 50  0001 C CNN
-	1    8800 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerBoth-rescue:IRF7205-PowerBoard-eagle-import Q201
-U 1 1 E6D570CA
-P 8100 4300
-F 0 "Q201" H 7750 4150 59  0000 L TNN
-F 1 "IRF7205" V 8260 4480 59  0000 L TNN
-F 2 "PowerBoard:8SOIC" H 8100 4300 50  0001 C CNN
-F 3 "" H 8100 4300 50  0001 C CNN
-F 4 "C55419" H 8100 4300 50  0001 C CNN "LCSC Part Number"
-	1    8100 4300
-	0    -1   1    0   
-$EndComp
-$Comp
 L PowerBoth-rescue:PJ-079AH-PowerBoard-eagle-import J201
 U 1 1 C3E76336
 P 1800 3600
@@ -432,17 +358,6 @@ F 2 "PowerBoard:CUI_PJ-079AH" H 1800 3600 50  0001 C CNN
 F 3 "" H 1800 3600 50  0001 C CNN
 	1    1800 3600
 	1    0    0    -1  
-$EndComp
-$Comp
-L PowerBoth-rescue:B330A-13-PowerBoard-eagle-import D203
-U 1 1 93886C31
-P 8400 4100
-F 0 "D203" H 8500 4306 116 0000 L BNN
-F 1 "B330A-13" H 8500 4182 116 0000 L BNN
-F 2 "PowerBoard:SMA-M" H 8400 4100 50  0001 C CNN
-F 3 "" H 8400 4100 50  0001 C CNN
-	1    8400 4100
-	0    1    1    0   
 $EndComp
 $Comp
 L PowerBoth-rescue:TEST_POINTROUND-1MM-PowerBoard-eagle-import TP201
@@ -455,16 +370,6 @@ F 3 "" H 5000 4900 50  0001 C CNN
 	1    5000 4900
 	-1   0    0    1   
 $EndComp
-Wire Notes Line
-	7800 3200 9000 3200
-Wire Notes Line
-	9000 3200 9000 5500
-Wire Notes Line
-	9000 5500 7800 5500
-Wire Notes Line
-	7800 5500 7800 3200
-Text Notes 7850 5450 0    47   ~ 0
-Load sharing circuit.\nBased on Microchip\nApplication Note AN1149.
 $Comp
 L PowerBoth-rescue:TEST_POINTROUND-1MM-PowerBoard-eagle-import TP202
 U 1 1 5E932987
@@ -481,13 +386,9 @@ Wire Wire Line
 Connection ~ 7400 3400
 Wire Wire Line
 	7400 3400 7400 4500
-Text HLabel 9600 4500 2    39   Input ~ 0
-V+ToBoost
 Text HLabel 2300 3500 2    39   Input ~ 0
 CHG_CON
 Text HLabel 2400 2700 1    39   Input ~ 0
-V+CH
-Text HLabel 8100 3500 1    39   Input ~ 0
 V+CH
 Text HLabel 5000 4900 0    39   Input ~ 0
 CHSTAT

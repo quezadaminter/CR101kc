@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -93,46 +93,6 @@ Wire Wire Line
 	8550 2950 8550 3050
 Text Label 8050 2950 0    10   ~ 0
 GND
-Wire Wire Line
-	9500 1750 9500 1850
-Wire Wire Line
-	9500 1850 9600 1850
-Wire Wire Line
-	9600 1850 9700 1850
-Wire Wire Line
-	9700 1850 9700 1950
-Wire Wire Line
-	9600 1750 9600 1850
-Wire Wire Line
-	9700 1750 9700 1850
-Wire Wire Line
-	9800 1750 9800 1850
-Wire Wire Line
-	9800 1850 9700 1850
-Wire Wire Line
-	9800 1850 9900 1850
-Wire Wire Line
-	9900 1850 9900 1750
-Wire Wire Line
-	9900 1850 10000 1850
-Wire Wire Line
-	10000 1850 10000 1750
-Wire Wire Line
-	10000 1850 10100 1850
-Wire Wire Line
-	10100 1850 10100 1750
-Wire Wire Line
-	10100 1850 10200 1850
-Wire Wire Line
-	10200 1850 10200 1750
-Connection ~ 9600 1850
-Connection ~ 9700 1850
-Connection ~ 9800 1850
-Connection ~ 9900 1850
-Connection ~ 10000 1850
-Connection ~ 10100 1850
-Wire Wire Line
-	10400 1350 10400 1050
 Wire Wire Line
 	2050 5200 1650 5200
 Wire Wire Line
@@ -271,39 +231,6 @@ Connection ~ 10050 4050
 Connection ~ 10550 4050
 Text Label 8850 4050 0    10   ~ 0
 5V
-Wire Wire Line
-	9500 1350 9500 1250
-Wire Wire Line
-	9500 1250 9600 1250
-Wire Wire Line
-	9600 1250 9700 1250
-Wire Wire Line
-	9700 1250 9700 1150
-Wire Wire Line
-	9600 1350 9600 1250
-Wire Wire Line
-	9700 1350 9700 1250
-Wire Wire Line
-	9800 1350 9800 1250
-Wire Wire Line
-	9800 1250 9700 1250
-Wire Wire Line
-	9900 1350 9900 1250
-Wire Wire Line
-	9900 1250 9800 1250
-Wire Wire Line
-	10000 1350 10000 1250
-Wire Wire Line
-	10000 1250 9900 1250
-Wire Wire Line
-	10100 1350 10100 1250
-Wire Wire Line
-	10100 1250 10000 1250
-Connection ~ 9600 1250
-Connection ~ 9700 1250
-Connection ~ 9800 1250
-Connection ~ 9900 1250
-Connection ~ 10000 1250
 $Comp
 L PowerBoth-rescue:LM3488QMM_NOPBDGK8-M-PowerBoard-Boost-v2-eagle-import U?
 U 1 1 5ECBF6F0
@@ -740,51 +667,6 @@ F 3 "" H 950 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerBoth-rescue:2X10-2MMSMD-PowerBoard-Boost-v2-eagle-import J?
-U 1 1 5ECBF79E
-P 9400 1650
-AR Path="/5ECBF79E" Ref="J?"  Part="1" 
-AR Path="/5E8AAE5F/5ECBF79E" Ref="J?"  Part="1" 
-AR Path="/5ECA2372/5E8AAE5F/5ECBF79E" Ref="J?"  Part="1" 
-AR Path="/5ECA2372/5ECBF79E" Ref="J302"  Part="1" 
-F 0 "J302" H 10500 1750 59  0000 L BNN
-F 1 "2X10-2MMSMD" H 10500 1650 59  0000 L BNN
-F 2 "PowerBoard-Boost-v2:2X10-2MM" H 9400 1650 50  0001 C CNN
-F 3 "" H 9400 1650 50  0001 C CNN
-	1    9400 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerBoth-rescue:5V-PowerBoard-Boost-v2-eagle-import #SUPPLY?
-U 1 1 5ECBF7A4
-P 9700 1150
-AR Path="/5ECBF7A4" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E8AAE5F/5ECBF7A4" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5ECA2372/5E8AAE5F/5ECBF7A4" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5ECA2372/5ECBF7A4" Ref="#SUPPLY0302"  Part="1" 
-F 0 "#SUPPLY0302" H 9700 1150 50  0001 C CNN
-F 1 "5V" H 9700 1260 59  0000 C BNN
-F 2 "" H 9700 1150 50  0001 C CNN
-F 3 "" H 9700 1150 50  0001 C CNN
-	1    9700 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerBoth-rescue:GND-PowerBoard-Boost-v2-eagle-import #GND?
-U 1 1 5ECBF7AA
-P 9700 2050
-AR Path="/5ECBF7AA" Ref="#GND?"  Part="1" 
-AR Path="/5E8AAE5F/5ECBF7AA" Ref="#GND?"  Part="1" 
-AR Path="/5ECA2372/5E8AAE5F/5ECBF7AA" Ref="#GND?"  Part="1" 
-AR Path="/5ECA2372/5ECBF7AA" Ref="#GND0307"  Part="1" 
-F 0 "#GND0307" H 9700 2050 50  0001 C CNN
-F 1 "GND" H 9600 1950 59  0000 L BNN
-F 2 "" H 9700 2050 50  0001 C CNN
-F 3 "" H 9700 2050 50  0001 C CNN
-	1    9700 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L PowerBoth-rescue:TEST_POINTROUND-1MM-PowerBoard-Boost-v2-eagle-import TP2-STAT?
 U 1 1 5ECBF7B0
 P 2550 1650
@@ -803,20 +685,12 @@ Connection ~ 1850 5500
 Connection ~ 1850 7000
 Text HLabel 2550 1650 3    39   Input ~ 0
 CHSTAT
-Text HLabel 10400 1050 1    39   Input ~ 0
-CHG_CON
 Text HLabel 950  1750 3    39   Input ~ 0
 V+CH
 Text HLabel 1250 5200 0    39   Input ~ 0
 V+ToBoost
 Text HLabel 7450 3350 0    39   Input ~ 0
 V+ToBoost
-Text HLabel 10400 1750 3    39   Input ~ 0
-CHSTAT
-Text HLabel 10300 1750 3    39   Input ~ 0
-VBATT
-NoConn ~ 10300 1350
-NoConn ~ 10200 1350
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5E92260A
@@ -826,17 +700,6 @@ F 1 "PWR_FLAG" H 10050 4223 50  0000 C CNN
 F 2 "" H 10050 4050 50  0001 C CNN
 F 3 "~" H 10050 4050 50  0001 C CNN
 	1    10050 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 5E923499
-P 9900 1250
-F 0 "#FLG0103" H 9900 1325 50  0001 C CNN
-F 1 "PWR_FLAG" H 9900 1423 50  0000 C CNN
-F 2 "" H 9900 1250 50  0001 C CNN
-F 3 "~" H 9900 1250 50  0001 C CNN
-	1    9900 1250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

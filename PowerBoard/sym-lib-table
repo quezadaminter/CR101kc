@@ -2,4 +2,7 @@
   (lib (name PowerBoard-eagle-import)(type Legacy)(uri C:/Users/mquezada/Documents/KiCAD/CR101/PowerBoth/Charger/PowerBoard-eagle-import.lib)(options "")(descr ""))
   (lib (name PowerBoard-Boost-v2-eagle-import)(type Legacy)(uri C:/Users/mquezada/Documents/KiCAD/CR101/PowerBoth/Boost/PowerBoard-Boost-v2-eagle-import.lib)(options "")(descr ""))
   (lib (name PowerBoth-rescue)(type Legacy)(uri ${KIPRJMOD}/PowerBoth-rescue.lib)(options "")(descr ""))
+  (lib (name MP2307DN-LF)(type Legacy)(uri ${KIPRJMOD}/MP2307DN-LF.lib)(options "")(descr ""))
+  (lib (name PowerBoth-eagle-import)(type Legacy)(uri ${KIPRJMOD}/PowerBoth-eagle-import.lib)(options "")(descr ""))
+  (lib (name PowerBoost1000-eagle-import)(type Legacy)(uri C:/Users/mquezada/Documents/KiCAD/CR101/PowerBoard/PowerBoost1000/PowerBoost1000-eagle-import.lib)(options "")(descr ""))
 )
