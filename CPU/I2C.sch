@@ -973,10 +973,10 @@ F 5 "CR101-V3" H 9500 2800 50  0001 C CNN "Customer Reference"
 	-1   0    0    1   
 $EndComp
 $Comp
-L CPU-eagle-import:5V #SUPPLY0102
+L CPU-eagle-import:5V #SUPPLY0106
 U 1 1 5EB5869E
 P 5200 1100
-F 0 "#SUPPLY0102" H 5200 1100 50  0001 C CNN
+F 0 "#SUPPLY0106" H 5200 1100 50  0001 C CNN
 F 1 "5V" H 5200 1322 59  0000 C CNN
 F 2 "" H 5200 1100 50  0001 C CNN
 F 3 "" H 5200 1100 50  0001 C CNN
@@ -997,8 +997,6 @@ F 6 "CR101-V3" H 7300 2150 50  0001 C CNN "Customer Reference"
 	1    7300 2150
 	1    0    0    -1  
 $EndComp
-Text HLabel 9450 1950 2    39   Input ~ 0
-85RES
 Wire Wire Line
 	5200 2000 5200 2850
 Wire Wire Line
@@ -1041,4 +1039,6 @@ Text Label 9100 1950 0    39   ~ 0
 UPDI
 Text Label 3500 3950 2    39   ~ 0
 UPDI
+Text HLabel 3500 3950 1    39   Input ~ 0
+PUPDI
 $EndSCHEMATC

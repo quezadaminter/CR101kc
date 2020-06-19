@@ -765,8 +765,6 @@ Text HLabel 6650 4800 0    39   Input ~ 0
 SDA5
 Text HLabel 6650 4900 0    39   Input ~ 0
 SCL5
-Text HLabel 6650 5400 0    39   Input ~ 0
-85RES
 Text HLabel 5300 5500 0    39   Input ~ 0
 CH_STAT
 Text Label 9950 5300 0    39   ~ 0
@@ -1178,12 +1176,6 @@ Wire Wire Line
 	6650 5600 5450 5600
 Wire Wire Line
 	5450 5600 5450 5500
-Wire Wire Line
-	5550 3450 5550 3550
-Wire Wire Line
-	5550 3550 5800 3550
-Wire Wire Line
-	5800 3550 5800 3800
 Connection ~ 5800 3800
 Wire Wire Line
 	5800 3800 6650 3800
@@ -1298,13 +1290,13 @@ $EndComp
 $Comp
 L Connector:TestPoint TPTX201
 U 1 1 5EBAA904
-P 5550 3450
-F 0 "TPTX201" H 5608 3568 50  0000 L CNN
-F 1 "TestPoint" H 5608 3477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5750 3450 50  0001 C CNN
-F 3 "~" H 5750 3450 50  0001 C CNN
-F 4 "CR101-V3" H 5550 3450 50  0001 C CNN "Customer Reference"
-	1    5550 3450
+P 5800 3450
+F 0 "TPTX201" H 5858 3568 50  0000 L CNN
+F 1 "TestPoint" H 5858 3477 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6000 3450 50  0001 C CNN
+F 3 "~" H 6000 3450 50  0001 C CNN
+F 4 "CR101-V3" H 5800 3450 50  0001 C CNN "Customer Reference"
+	1    5800 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1499,4 +1491,14 @@ Wire Wire Line
 Connection ~ 10400 1350
 Wire Wire Line
 	10400 1350 10400 1500
+Text HLabel 5100 4250 0    39   Input ~ 0
+PRST
+Text HLabel 4950 4050 0    39   Input ~ 0
+PMISO
+Text HLabel 4900 4500 0    39   Input ~ 0
+PSCK
+Text HLabel 5700 4150 2    39   Input ~ 0
+PMOSI
+Wire Wire Line
+	5800 3450 5800 3800
 $EndSCHEMATC
