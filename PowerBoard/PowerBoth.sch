@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 4
 Title "CR101 Power Board"
 Date "2020-06-01"
 Rev "3"
@@ -23,21 +23,8 @@ F3 "V+CH" I L 1000 850 39
 F4 "CHSTAT" I L 1000 750 39 
 F5 "VBATT" I L 1000 700 39 
 $EndSheet
-$Sheet
-S 1000 1450 900  450 
-U 5ECA2372
-F0 "SEPIC Converter" 50
-F1 "Boost/PowerBoard-Boost-v2.sch" 50
-F2 "CHSTAT" I L 1000 1800 39 
-F3 "CHG_CON" I L 1000 1600 39 
-F4 "V+ToBoost" I L 1000 1500 39 
-F5 "V+CH" I L 1000 1700 39 
-F6 "VBATT" I L 1000 1850 39 
-$EndSheet
 Wire Wire Line
 	6500 2100 6500 2300
-Wire Wire Line
-	5600 3000 5100 3000
 $Comp
 L PowerBoth-rescue:RESISTOR1206-PowerBoard-eagle-import R?
 U 1 1 5EDB5107
@@ -48,6 +35,8 @@ F 0 "R101" H 6050 2159 59  0000 L BNN
 F 1 "56K" H 6050 1970 59  0000 L BNN
 F 2 "PowerBoard:1206" H 6200 2100 50  0001 C CNN
 F 3 "" H 6200 2100 50  0001 C CNN
+F 4 "CRCW120656K0FKEA" H 6200 2100 50  0001 C CNN "DigiKey"
+F 5 "C18029" H 6200 2100 50  0001 C CNN "LCSC Part Number"
 	1    6200 2100
 	-1   0    0    1   
 $EndComp
@@ -75,6 +64,7 @@ F 1 "IRF7205" V 5900 2850 59  0000 L TNN
 F 2 "PowerBoard:8SOIC" H 5800 3000 50  0001 C CNN
 F 3 "" H 5800 3000 50  0001 C CNN
 F 4 "C55419" H 5800 3000 50  0001 C CNN "LCSC Part Number"
+F 5 "IRF7205TRPBF" H 5800 3000 50  0001 C CNN "DigiKey"
 	1    5800 3000
 	0    -1   1    0   
 $EndComp
@@ -88,6 +78,8 @@ F 0 "D101" H 6600 2806 116 0000 L BNN
 F 1 "B330A-13" H 6600 2682 116 0000 L BNN
 F 2 "PowerBoard:SMA-M" H 6500 2600 50  0001 C CNN
 F 3 "" H 6500 2600 50  0001 C CNN
+F 4 "B330B-13-F" H 6500 2600 50  0001 C CNN "DigiKey"
+F 5 "C110485" H 6500 2600 50  0001 C CNN "LCSC Part Number"
 	1    6500 2600
 	0    1    1    0   
 $EndComp
@@ -101,7 +93,7 @@ Wire Notes Line
 	5500 4000 5500 1700
 Text Notes 5550 3950 0    47   ~ 0
 Load sharing circuit.\nBased on Microchip\nApplication Note AN1149.
-Text Label 5100 3000 2    39   ~ 0
+Text Label 5600 3000 2    39   ~ 0
 FromBoost
 Wire Wire Line
 	6000 3000 7000 3000
@@ -121,7 +113,7 @@ Wire Wire Line
 Connection ~ 7000 3000
 Text Label 6500 2600 2    39   ~ 0
 FromBuck
-Text Label 1950 3250 0    39   ~ 0
+Text Label 1950 1550 0    39   ~ 0
 FromBuck
 Wire Wire Line
 	9400 1700 9400 1800
@@ -157,15 +149,11 @@ Connection ~ 9700 1800
 Connection ~ 9800 1800
 Connection ~ 9900 1800
 Wire Wire Line
-	10300 1300 10300 1000
-Wire Wire Line
 	9400 1300 9400 1200
 Wire Wire Line
 	9400 1200 9500 1200
 Wire Wire Line
 	9500 1200 9600 1200
-Wire Wire Line
-	9600 1200 9600 1100
 Wire Wire Line
 	9500 1300 9500 1200
 Wire Wire Line
@@ -201,8 +189,9 @@ AR Path="/5ECA2372/5E8AAE5F/5EDBF0DD" Ref="J?"  Part="1"
 AR Path="/5ECA2372/5EDBF0DD" Ref="J?"  Part="1" 
 F 0 "J101" H 10400 1700 59  0000 L BNN
 F 1 "2X10-2MMSMD" H 10400 1600 59  0000 L BNN
-F 2 "PowerBoard-Boost-v2:2X10-2MM" H 9300 1600 50  0001 C CNN
+F 2 "MarcoK:2X10-2MM" H 9300 1600 50  0001 C CNN
 F 3 "" H 9300 1600 50  0001 C CNN
+F 4 "NPPN102GFNP-RC" H 9300 1600 50  0001 C CNN "DigiKey"
 	1    9300 1600
 	1    0    0    -1  
 $EndComp
@@ -236,25 +225,6 @@ F 3 "" H 9600 2000 50  0001 C CNN
 	1    9600 2000
 	1    0    0    -1  
 $EndComp
-Text HLabel 10300 1000 1    39   Input ~ 0
-CHG_CON
-Text HLabel 10300 1700 3    39   Input ~ 0
-CHSTAT
-Text HLabel 10200 1700 3    39   Input ~ 0
-VBATT
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5EDBF0F4
-P 9800 1200
-AR Path="/5ECA2372/5EDBF0F4" Ref="#FLG?"  Part="1" 
-AR Path="/5EDBF0F4" Ref="#FLG0103"  Part="1" 
-F 0 "#FLG0103" H 9800 1275 50  0001 C CNN
-F 1 "PWR_FLAG" H 9800 1373 50  0000 C CNN
-F 2 "" H 9800 1200 50  0001 C CNN
-F 3 "~" H 9800 1200 50  0001 C CNN
-	1    9800 1200
-	1    0    0    -1  
-$EndComp
 $Comp
 L PowerBoth-rescue:5V-PowerBoard-Boost-v2-eagle-import #SUPPLY0102
 U 1 1 5EDBFBD2
@@ -274,49 +244,58 @@ Wire Wire Line
 	7500 3000 7500 2900
 Wire Wire Line
 	7000 3000 7500 3000
-Text Label 1950 2550 0    39   ~ 0
+Text Label 2000 2150 0    39   ~ 0
 LBO
-Text Label 1000 3250 2    39   ~ 0
+Text Label 1000 1550 2    39   ~ 0
 V+CH
 Text Label 1000 850  2    39   ~ 0
 V+CH
-NoConn ~ 1000 1700
 Text Label 5900 2000 1    39   ~ 0
 V+CH
 Text Label 10200 1300 1    39   ~ 0
 LBO
 Text Label 1000 700  2    39   ~ 0
 VBATT
-Text Label 900  2500 2    39   ~ 0
+Text Label 950  2100 2    39   ~ 0
 VBATT
-Text Label 900  2600 2    39   ~ 0
+Text Label 950  2200 2    39   ~ 0
 EN_PB
 Text Label 10100 1300 1    39   ~ 0
 EN_PB
-Text Label 1000 3350 2    39   ~ 0
+Text Label 1000 1650 2    39   ~ 0
 EN_BUCK
-Text Label 10100 1700 3    39   ~ 0
-EN_BUCK
-NoConn ~ 1000 1500
-NoConn ~ 1000 1600
-NoConn ~ 1000 1850
-NoConn ~ 1000 1800
 $Sheet
-S 1000 3150 950  300 
+S 1000 1450 950  300 
 U 5EDA5AF4
 F0 "MP2307_Buck" 39
 F1 "Buck/MP2307_Buck.sch" 39
-F2 "V+CH" I L 1000 3250 39 
-F3 "FromBuck" I R 1950 3250 39 
-F4 "ENABLE" I L 1000 3350 39 
+F2 "V+CH" I L 1000 1550 39 
+F3 "FromBuck" I R 1950 1550 39 
+F4 "ENABLE" I L 1000 1650 39 
 $EndSheet
+Text Label 1000 750  2    39   ~ 0
+CHSTAT
+Text Label 1000 950  2    39   ~ 0
+CHG_CON
+Text Label 10300 1300 1    39   ~ 0
+CHG_CON
+Text Label 10300 1700 3    39   ~ 0
+CHSTAT
+Text Label 10200 1700 3    39   ~ 0
+VBATT
+Wire Wire Line
+	9600 1200 9600 1100
 $Sheet
-S 900  2350 1050 450 
+S 950  1950 1050 450 
 U 5ED79595
 F0 "PowerBoost1000" 39
 F1 "PowerBoost1000/PwerBoost1000.sch" 39
-F2 "LBO" I R 1950 2550 39 
-F3 "VBATT" I L 900 2500 39 
-F4 "ENABLE" I L 900 2600 39 
+F2 "LBO" I R 2000 2150 39 
+F3 "VBATT" I L 950 2100 39 
+F4 "ENABLE" I L 950 2200 39 
+F5 "FromBoost" I R 2000 2250 39 
 $EndSheet
+Text Label 2000 2250 0    39   ~ 0
+FromBoost
+NoConn ~ 10100 1700
 $EndSCHEMATC

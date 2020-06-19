@@ -1,5 +1,6 @@
 (fp_lib_table
-  (lib (name PowerBoard-Boost-v2)(type KiCad)(uri C:/Users/mquezada/Documents/KiCAD/CR101/PowerBoth/Boost/PowerBoard-Boost-v2.pretty)(options "")(descr ""))
-  (lib (name PowerBoard)(type KiCad)(uri C:/Users/mquezada/Documents/KiCAD/CR101/PowerBoth/Charger/PowerBoard.pretty)(options "")(descr ""))
+  (lib (name PowerBoard-Boost-v2)(type KiCad)(uri ${KIPRJMOD}/Boost/PowerBoard-Boost-v2.pretty)(options "")(descr ""))
+  (lib (name PowerBoard)(type KiCad)(uri ${KIPRJMOD}/Charger/PowerBoard.pretty)(options "")(descr ""))
   (lib (name Buck)(type KiCad)(uri ${KIPRJMOD}/Buck)(options "")(descr ""))
+  (lib (name PowerBoost1000)(type KiCad)(uri C:/Users/mquezada/Documents/KiCAD/CR101/PowerBoard/PowerBoost1000/PowerBoost1000.pretty)(options "")(descr ""))
 )
