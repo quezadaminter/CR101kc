@@ -14,19 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CPU-eagle-import:RPI-ZERO Pi101
-U 1 1 87B7DF34
-P 3950 6200
-F 0 "Pi101" H 3150 7600 50  0000 L BNN
-F 1 "RPI-ZERO" H 3150 7525 50  0000 L BNN
-F 2 "CPU:RASPBERRYPI_Zero-No_Mounting_Holes_SMD_Flat" H 3950 6200 50  0001 C CNN
-F 3 "" H 3950 6200 50  0001 C CNN
-F 4 "609-2231-ND" H 3950 6200 50  0001 C CNN "DigiKey"
-F 5 "CR101-V3" H 3950 6200 50  0001 C CNN "Customer Reference"
-	1    3950 6200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x10_Odd_Even J101
 U 1 1 5E842027
 P 1850 1700
@@ -209,16 +196,8 @@ Text Label 3050 6000 2    39   ~ 0
 MISO
 Text Label 3050 6100 2    39   ~ 0
 SCLK
-Text Label 3050 6300 2    39   ~ 0
-EEDATA
-Text Label 4950 6300 0    39   ~ 0
-EECLK
-Text Label 4950 6200 0    39   ~ 0
-RT_CS
 Text Label 4950 6100 0    39   ~ 0
 TFT_CS
-Text Label 4950 6000 0    39   ~ 0
-TFT_DC
 Text Label 4950 5800 0    39   ~ 0
 RT_INIT
 NoConn ~ 1450 1500
@@ -243,7 +222,6 @@ Wire Wire Line
 Connection ~ 5150 5000
 Text Label 5150 5000 0    39   ~ 0
 Pi5V
-NoConn ~ 3050 6400
 NoConn ~ 3050 6500
 NoConn ~ 3050 6600
 NoConn ~ 4950 6700
@@ -545,8 +523,6 @@ F7 "PUPDI" I R 4650 1950 39
 $EndSheet
 Text Notes 3200 7250 0    20   ~ 0
 I2C slave setup:\nhttps://raspberrypi.stackexchange.com/questions/76109/raspberry-as-an-i2c-slave
-NoConn ~ 3050 5100
-NoConn ~ 3050 5200
 $Comp
 L power:+5VP #PWR0108
 U 1 1 5EB8BD82
@@ -611,6 +587,7 @@ F9 "TFT_DC" I L 5550 2600 39
 F10 "RT_INIT" I L 5550 2700 39 
 F11 "LCD_BACKLIGHT" I L 5550 2800 39 
 F12 "Pi5V" I R 6400 2300 39 
+F13 "TFT_RST" I R 6400 2150 39 
 $EndSheet
 Text Label 5550 2700 2    39   ~ 0
 RT_INIT
@@ -632,7 +609,7 @@ Text Label 5550 1900 2    39   ~ 0
 MOSI
 Text Label 5550 2800 2    39   ~ 0
 LCD_BACK_LIGHT
-Text Label 4950 5700 0    39   ~ 0
+Text Label 3050 6400 2    39   ~ 0
 LCD_BACK_LIGHT
 $Comp
 L Connector:TestPoint TP102
@@ -732,186 +709,12 @@ Wire Wire Line
 	3400 2550 3650 2550
 Wire Wire Line
 	3300 2500 3300 2700
-$Comp
-L Regulator_Linear:LP2988-3.3_SOIC8_VSSOP8 U101
-U 1 1 5ED9EE3F
-P 1650 3650
-F 0 "U101" H 1650 3992 50  0000 C CNN
-F 1 "LP2989-3.3_SOIC8_VSSOP8" H 1650 3901 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 1650 4075 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lp2987.pdf" H 1650 3650 50  0001 C CNN
-F 4 "LP2989IMM-3.3/NOPB" H 1650 3650 50  0001 C CNN "DigiKey"
-	1    1650 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 3550 1000 3550
-Wire Wire Line
-	1000 3550 1000 3400
-Wire Wire Line
-	2050 3550 2250 3550
-Wire Wire Line
-	2250 3550 2250 3650
-Wire Wire Line
-	2250 3650 2050 3650
-$Comp
-L CPU-eagle-import:GND #GND0104
-U 1 1 5EDA6100
-P 1650 4550
-F 0 "#GND0104" H 1650 4550 50  0001 C CNN
-F 1 "GND" H 1650 4540 59  0000 C TNN
-F 2 "" H 1650 4550 50  0001 C CNN
-F 3 "" H 1650 4550 50  0001 C CNN
-	1    1650 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CPU-eagle-import:C-USC1210 C103
-U 1 1 5EDAAE71
-P 2700 4050
-AR Path="/5EDAAE71" Ref="C103"  Part="1" 
-AR Path="/5E9D5ED5/5EDAAE71" Ref="C?"  Part="1" 
-F 0 "C103" H 2740 4075 59  0000 L BNN
-F 1 "10uF" H 2740 3885 59  0000 L BNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2700 4050 50  0001 C CNN
-F 3 "" H 2700 4050 50  0001 C CNN
-F 4 " C15850" H 2700 4050 50  0001 C CNN "LCSC Part Number"
-F 5 "EMK212ABJ106MD-T" H 2700 4050 50  0001 C CNN "DigiKey"
-F 6 "CR101-V3" H 2700 4050 50  0001 C CNN "Customer Reference"
-	1    2700 4050
-	1    0    0    -1  
-$EndComp
-Connection ~ 2250 3550
-$Comp
-L CPU-eagle-import:C-USC1210 C102
-U 1 1 5EDB4B5E
-P 2400 4050
-AR Path="/5EDB4B5E" Ref="C102"  Part="1" 
-AR Path="/5E9D5ED5/5EDB4B5E" Ref="C?"  Part="1" 
-F 0 "C102" H 2440 4075 59  0000 L BNN
-F 1 "0.1uF" H 2440 3885 59  0000 L BNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2400 4050 50  0001 C CNN
-F 3 "" H 2400 4050 50  0001 C CNN
-F 4 " C1848 " H 2400 4050 50  0001 C CNN "LCSC Part Number"
-F 5 "C0805C104K3RACTU" H 2400 4050 50  0001 C CNN "DigiKey"
-F 6 "CR101-V3" H 2400 4050 50  0001 C CNN "Customer Reference"
-	1    2400 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 3550 2700 3950
-Wire Wire Line
-	2250 3550 2700 3550
-Wire Wire Line
-	2050 3850 2400 3850
-Wire Wire Line
-	2400 3850 2400 3950
-Wire Wire Line
-	1650 4050 1650 4400
-Wire Wire Line
-	2700 4250 2700 4400
-Wire Wire Line
-	2700 4400 2400 4400
-Connection ~ 1650 4400
-Wire Wire Line
-	1650 4400 1650 4450
-Wire Wire Line
-	2400 4250 2400 4400
-Connection ~ 2400 4400
-Wire Wire Line
-	2400 4400 1650 4400
-$Comp
-L CPU-eagle-import:C-USC1210 C101
-U 1 1 5EDC66D5
-P 850 4000
-AR Path="/5EDC66D5" Ref="C101"  Part="1" 
-AR Path="/5E9D5ED5/5EDC66D5" Ref="C?"  Part="1" 
-F 0 "C101" H 890 4025 59  0000 L BNN
-F 1 "10uF" H 700 3850 59  0000 L BNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 850 4000 50  0001 C CNN
-F 3 "" H 850 4000 50  0001 C CNN
-F 4 " C15850" H 850 4000 50  0001 C CNN "LCSC Part Number"
-F 5 "EMK212ABJ106MD-T" H 850 4000 50  0001 C CNN "DigiKey"
-F 6 "CR101-V3" H 850 4000 50  0001 C CNN "Customer Reference"
-	1    850  4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 3550 850  3550
-Wire Wire Line
-	850  3550 850  3900
-Connection ~ 1000 3550
-Wire Wire Line
-	1650 4400 1150 4400
-Wire Wire Line
-	850  4400 850  4200
-$Comp
-L PiTFT-eagle-import:SOLDERJUMPERCLOSED SJ?
-U 1 1 5EDD1B31
-P 1500 3050
-AR Path="/5EC4945A/5EDD1B31" Ref="SJ?"  Part="1" 
-AR Path="/5EDD1B31" Ref="SJ101"  Part="1" 
-F 0 "SJ101" H 1400 3150 59  0000 L BNN
-F 1 "SOLDERJUMPERCLOSED" H 1300 3300 59  0000 L BNN
-F 2 "PiTFT:SOLDERJUMPER_CLOSEDWIRE" H 1500 3050 50  0001 C CNN
-F 3 "" H 1500 3050 50  0001 C CNN
-F 4 "CR101-V3" H 1500 3050 50  0001 C CNN "Customer Reference"
-	1    1500 3050
-	1    0    0    -1  
-$EndComp
 Text Label 3050 5600 2    39   ~ 0
 LCD_PWR
 Wire Wire Line
 	2650 5800 2650 4950
 Wire Wire Line
 	2650 5800 3050 5800
-Text Label 1150 3650 2    39   ~ 0
-LCD_PWR
-NoConn ~ 2050 3750
-NoConn ~ 1250 3750
-$Comp
-L CPU-eagle-import:R-US_R1206 R?
-U 1 1 5EDE06CA
-P 1150 4100
-AR Path="/5E916134/5EDE06CA" Ref="R?"  Part="1" 
-AR Path="/5EDE06CA" Ref="R105"  Part="1" 
-F 0 "R105" H 1200 4000 59  0000 L BNN
-F 1 "100K" H 950 4000 59  0000 L BNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1150 4100 50  0001 C CNN
-F 3 "" H 1150 4100 50  0001 C CNN
-F 4 " C17414" H 1150 4100 50  0001 C CNN "LCSC Part Number"
-F 5 "RC0805FR-0710KL" H 1150 4100 50  0001 C CNN "DigiKey"
-F 6 "CR101-V3" H 1150 4100 50  0001 C CNN "Customer Reference"
-	1    1150 4100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1150 4300 1150 4400
-Connection ~ 1150 4400
-Wire Wire Line
-	1150 4400 850  4400
-Wire Wire Line
-	1250 3650 1150 3650
-Wire Wire Line
-	1150 3650 1150 3900
-NoConn ~ 1700 3050
-NoConn ~ 1300 3050
-Text Label 1000 3400 1    39   ~ 0
-Pi5V
-$Comp
-L power:+3.3VADC #PWR0103
-U 1 1 5EDFA204
-P 2700 3400
-F 0 "#PWR0103" H 2850 3350 50  0001 C CNN
-F 1 "+3.3VADC" H 2720 3543 50  0000 C CNN
-F 2 "" H 2700 3400 50  0001 C CNN
-F 3 "" H 2700 3400 50  0001 C CNN
-	1    2700 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 3550 2700 3400
-Connection ~ 2700 3550
 $Comp
 L CPU-eagle-import:5V #SUPPLY?
 U 1 1 5EE216E8
@@ -927,4 +730,34 @@ F 3 "" H 5250 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5050 4500 5050 4300
+$Comp
+L CPU-eagle-import:RPI-ZERO Pi101
+U 1 1 87B7DF34
+P 3950 6200
+F 0 "Pi101" H 3150 7600 50  0000 L BNN
+F 1 "RPI-ZERO" H 3150 7525 50  0000 L BNN
+F 2 "CPU:RASPBERRYPI_Zero-No_Mounting_Holes_SMD_Flat" H 3950 6200 50  0001 C CNN
+F 3 "" H 3950 6200 50  0001 C CNN
+F 4 "609-2231-ND" H 3950 6200 50  0001 C CNN "DigiKey"
+F 5 "CR101-V3" H 3950 6200 50  0001 C CNN "Customer Reference"
+	1    3950 6200
+	1    0    0    -1  
+$EndComp
+Text Label 4950 6200 0    39   ~ 0
+RT_CS
+Text Label 4950 6300 0    39   ~ 0
+TFT_DC
+NoConn ~ 4950 5700
+NoConn ~ 4950 6000
+NoConn ~ 3050 6000
+NoConn ~ 4950 6200
+NoConn ~ 4950 5800
+Text Label 6400 2150 0    39   ~ 0
+TFT_RST
+Text Label 3050 6300 2    39   ~ 0
+TFT_RST
+Text Label 3050 5200 2    39   ~ 0
+SCL
+Text Label 3050 5100 2    39   ~ 0
+SDA
 $EndSCHEMATC
