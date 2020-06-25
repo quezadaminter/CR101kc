@@ -70,8 +70,8 @@
     (mod_edge_width 0.12)
     (mod_text_size 0.75 0.75)
     (mod_text_width 0.13)
-    (pad_size 1 1)
-    (pad_drill 0)
+    (pad_size 1.6 1.6)
+    (pad_drill 1.6)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -394,8 +394,8 @@
     (pad "" np_thru_hole oval (at 0.260167 0) (size 2.024484 1.5) (drill oval 2.024484 1.5) (layers *.Cu *.Mask))
   )
 
-  (module "" (layer Top) (tedit 0) (tstamp 0)
-    (at 265.5 143.931209)
+  (module "" (layer Top) (tedit 0) (tstamp 5EF4413C)
+    (at 265.5 144.181209)
     (fp_text reference @HOLE2 (at 0 0 unlocked) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.13)))
     )
@@ -719,7 +719,7 @@
       (net 4 "Net-(CC201-Pad2)") (solder_mask_margin 0.0635))
   )
 
-  (module "" (layer Top) (tedit 0) (tstamp 0)
+  (module "" (layer Top) (tedit 5EF44084) (tstamp 0)
     (at 136.5 134.802262)
     (fp_text reference @HOLE4 (at 0 0 unlocked) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.13)))
@@ -727,11 +727,11 @@
     (fp_text value "" (at 0 0 unlocked) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.13)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
   )
 
-  (module "" (layer Top) (tedit 0) (tstamp 0)
-    (at 136.5 131.982262)
+  (module "" (layer Top) (tedit 0) (tstamp 5EF4411E)
+    (at 136.5 132.232262)
     (fp_text reference @HOLE3 (at 0 0 unlocked) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.13)))
     )
