@@ -304,7 +304,7 @@ See Pg 15\n1st para
 Text Notes 3300 2950 0    59   ~ 0
 6.8uH power\nw/4A current
 Text Notes 5600 1850 0    59   ~ 0
-R404 = 1.9Mohm for 5.2V\nR404 = 1.1Mohm for 3.3V
+R403 = 1.9Mohm for 5.2V\nR403 = 1.1Mohm for 3.3V
 Text HLabel 5900 4150 2    39   Input ~ 0
 LBO
 Text HLabel 2900 3250 0    39   Input ~ 0
