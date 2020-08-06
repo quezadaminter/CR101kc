@@ -22,7 +22,7 @@ F 1 "Conn_02x10_Odd_Even" H 1550 1050 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x10_P2.00mm_Vertical_SMD" H 1850 1700 50  0001 C CNN
 F 3 "~" H 1850 1700 50  0001 C CNN
 F 4 "C135211" H 1850 1700 50  0001 C CNN "LCSC Part Number"
-F 5 "NRPN102MAMP-RC" H 1850 1700 50  0001 C CNN "DigiKey"
+F 5 "TMM-105-06-L-D-SM-A" H 1850 1700 50  0001 C CNN "DigiKey"
 F 6 "CR101-V3" H 1850 1700 50  0001 C CNN "Customer Reference"
 	1    1850 1700
 	0    1    1    0   
@@ -196,7 +196,7 @@ Text Label 3050 6100 2    39   ~ 0
 SCLK
 Text Label 4950 6100 0    39   ~ 0
 TFT_CS
-Text Label 4950 5800 0    39   ~ 0
+Text Label 3050 5600 2    39   ~ 0
 RT_INIT
 NoConn ~ 1450 1500
 NoConn ~ 1550 1500
@@ -550,7 +550,6 @@ Text Label 4950 3300 3    39   ~ 0
 PI_RESET_TOGGLE
 Text Label 4850 800  0    39   ~ 0
 PI_RESET_TOGGLE
-NoConn ~ 3050 5700
 NoConn ~ 3050 5500
 NoConn ~ 3050 5300
 $Comp
@@ -564,7 +563,6 @@ F 3 "" H 2650 4950 50  0001 C CNN
 	1    2650 4950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3050 5000
 Text Label 3950 2100 2    39   ~ 0
 SCL5
 Text Label 3950 2150 2    39   ~ 0
@@ -607,7 +605,7 @@ Text Label 5550 1900 2    39   ~ 0
 MOSI
 Text Label 5550 2800 2    39   ~ 0
 LCD_BACK_LIGHT
-Text Label 3050 6400 2    39   ~ 0
+Text Label 3050 5700 2    39   ~ 0
 LCD_BACK_LIGHT
 $Comp
 L Connector:TestPoint TP102
@@ -706,10 +704,10 @@ Wire Wire Line
 	3400 2550 3650 2550
 Wire Wire Line
 	3300 2500 3300 2700
-Text Label 3050 5600 2    39   ~ 0
+Text Label 3050 6400 2    39   ~ 0
 LCD_PWR
 Wire Wire Line
-	2650 5800 2650 4950
+	2650 5800 2650 5000
 Wire Wire Line
 	2650 5800 3050 5800
 $Comp
@@ -748,10 +746,9 @@ NoConn ~ 4950 5700
 NoConn ~ 4950 6000
 NoConn ~ 3050 6000
 NoConn ~ 4950 6200
-NoConn ~ 4950 5800
 Text Label 6400 2150 0    39   ~ 0
 TFT_RST
-Text Label 3050 6300 2    39   ~ 0
+Text Label 4950 5800 0    39   ~ 0
 TFT_RST
 Text Label 3050 5200 2    39   ~ 0
 SCL
@@ -803,4 +800,11 @@ Wire Wire Line
 Wire Wire Line
 	2900 1200 2900 1100
 Connection ~ 2600 1200
+Wire Wire Line
+	3050 5000 2650 5000
+Connection ~ 2650 5000
+Wire Wire Line
+	2650 5000 2650 4950
+NoConn ~ 3050 6400
+NoConn ~ 3050 6300
 $EndSCHEMATC
