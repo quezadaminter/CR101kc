@@ -194,8 +194,6 @@ Text Label 3050 6000 2    39   ~ 0
 MISO
 Text Label 3050 6100 2    39   ~ 0
 SCLK
-Text Label 4950 6100 0    39   ~ 0
-TFT_CS
 Text Label 3050 5600 2    39   ~ 0
 RT_INIT
 NoConn ~ 1450 1500
@@ -740,8 +738,6 @@ F 5 "CR101-V3" H 3950 6200 50  0001 C CNN "Customer Reference"
 $EndComp
 Text Label 4950 6200 0    39   ~ 0
 RT_CS
-Text Label 4950 6300 0    39   ~ 0
-TFT_DC
 NoConn ~ 4950 5700
 NoConn ~ 4950 6000
 NoConn ~ 3050 6000
@@ -807,4 +803,8 @@ Wire Wire Line
 	2650 5000 2650 4950
 NoConn ~ 3050 6400
 NoConn ~ 3050 6300
+Text Label 4950 6100 0    39   ~ 0
+TFT_CS
+Text Label 4950 6300 0    39   ~ 0
+TFT_DC
 $EndSCHEMATC
