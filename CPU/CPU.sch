@@ -702,7 +702,7 @@ Wire Wire Line
 	3400 2550 3650 2550
 Wire Wire Line
 	3300 2500 3300 2700
-Text Label 3050 6400 2    39   ~ 0
+Text Label 3050 6500 2    39   ~ 0
 LCD_PWR
 Wire Wire Line
 	2650 5800 2650 5000
@@ -801,10 +801,9 @@ Wire Wire Line
 Connection ~ 2650 5000
 Wire Wire Line
 	2650 5000 2650 4950
-NoConn ~ 3050 6400
 NoConn ~ 3050 6300
 Text Label 4950 6100 0    39   ~ 0
 TFT_CS
-Text Label 4950 6300 0    39   ~ 0
+Text Label 3050 6400 2    39   ~ 0
 TFT_DC
 $EndSCHEMATC
